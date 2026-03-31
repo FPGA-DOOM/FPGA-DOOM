@@ -1,0 +1,3 @@
+verilator --trace --cc hvsync_test.v hvsync_generator.v --exe vsss.cpp
+make -C obj_dir -f Vhvsync_test.mk CXXFLAGS+="-g -ggdb" LDFLAGS+=" -lsfml-graphics -lsfml-window -lsfml-system"
+./obj_dir/Vhvsync_test
