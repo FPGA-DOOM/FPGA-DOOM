@@ -3,10 +3,10 @@
 //
 // Internal details; most user sources do not need this header,
 // unless using verilator public meta comments.
-// Suggest use Vstarfield.h instead.
+// Suggest use Vmain.h instead.
 
-#ifndef VERILATED_VSTARFIELD__PCH_H_
-#define VERILATED_VSTARFIELD__PCH_H_  // guard
+#ifndef VERILATED_VMAIN__PCH_H_
+#define VERILATED_VMAIN__PCH_H_  // guard
 
 // GCC and Clang only will precompile headers (PCH) for the first header.
 // So, make sure this is the one and only PCH.
@@ -19,8 +19,8 @@
 
 #include "verilated.h"
 
-#include "Vstarfield__Syms.h"
-#include "Vstarfield.h"
+#include "Vmain__Syms.h"
+#include "Vmain.h"
 
 // Additional include files added using '--compiler-include'
 

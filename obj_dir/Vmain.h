@@ -5,20 +5,22 @@
 // The class here is then constructed to instantiate the design.
 // See the Verilator manual for examples.
 
-#ifndef VERILATED_VSTARFIELD_H_
-#define VERILATED_VSTARFIELD_H_  // guard
+#ifndef VERILATED_VMAIN_H_
+#define VERILATED_VMAIN_H_  // guard
 
 #include "verilated.h"
 
-class Vstarfield__Syms;
-class Vstarfield___024root;
+class Vmain__Syms;
+class Vmain___024root;
 class VerilatedVcdC;
+class Vmain___024unit;
+
 
 // This class is the main interface to the Verilated model
-class alignas(VL_CACHE_LINE_BYTES) Vstarfield VL_NOT_FINAL : public VerilatedModel {
+class alignas(VL_CACHE_LINE_BYTES) Vmain VL_NOT_FINAL : public VerilatedModel {
   private:
     // Symbol table holding complete model state (owned by this class)
-    Vstarfield__Syms* const vlSymsp;
+    Vmain__Syms* const vlSymsp;
 
   public:
 
@@ -30,32 +32,33 @@ class alignas(VL_CACHE_LINE_BYTES) Vstarfield VL_NOT_FINAL : public VerilatedMod
     // The application code writes and reads these signals to
     // propagate new values into/out from the Verilated model.
     VL_IN8(&clk,0,0);
-    VL_IN8(&reset,0,0);
-    VL_OUT8(&hsync,0,0);
-    VL_OUT8(&vsync,0,0);
-    VL_OUT8(&rgb,2,0);
-    VL_OUT16(&out_hpos,9,0);
-    VL_OUT16(&out_vpos,9,0);
+    VL_IN8(&we,0,0);
+    VL_IN8(&ras,0,0);
+    VL_IN8(&cas,0,0);
+    VL_IN8(&ba,1,0);
+    VL_IN16(&addr,11,0);
+    VL_INOUT16(&dq,15,0);
 
     // CELLS
     // Public to allow access to /* verilator public */ items.
     // Otherwise the application code can consider these internals.
+    Vmain___024unit* const __PVT____024unit;
 
     // Root instance pointer to allow access to model internals,
     // including inlined /* verilator public_flat_* */ items.
-    Vstarfield___024root* const rootp;
+    Vmain___024root* const rootp;
 
     // CONSTRUCTORS
     /// Construct the model; called by application code
     /// If contextp is null, then the model will use the default global context
     /// If name is "", then makes a wrapper with a
     /// single model invisible with respect to DPI scope names.
-    explicit Vstarfield(VerilatedContext* contextp, const char* name = "TOP");
-    explicit Vstarfield(const char* name = "TOP");
+    explicit Vmain(VerilatedContext* contextp, const char* name = "TOP");
+    explicit Vmain(const char* name = "TOP");
     /// Destroy the model; called (often implicitly) by application code
-    virtual ~Vstarfield();
+    virtual ~Vmain();
   private:
-    VL_UNCOPYABLE(Vstarfield);  ///< Copying not allowed
+    VL_UNCOPYABLE(Vmain);  ///< Copying not allowed
 
   public:
     // API METHODS

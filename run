@@ -1,3 +1,4 @@
-verilator --trace --cc starfield.v lfsr.v  hvsync_generator.v  --exe vsss.cpp
-make -C obj_dir -f Vstarfield.mk CXXFLAGS+="-g -ggdb" LDFLAGS+=" -lsfml-graphics -lsfml-window -lsfml-system"
-./obj_dir/Vstarfield
+rm obj_dir/*
+verilator --trace --cc main.v dram.v --exe main.cpp -top main &&
+make -C obj_dir -f Vmain.mk CXXFLAGS+="-g -ggdb" &&
+./obj_dir/Vmain

@@ -1,6 +1,1044 @@
-- V e r i l a t i o n   R e p o r t: Verilator 5.046 2026-02-28 rev v5.046
-- Verilator: Built from 0.000 MB sources in 0 modules, into 0.000 MB in 0 C++ files needing 0.000 MB
-- Verilator: Walltime 0.000 s (elab=0.000, cvt=0.000, bld=0.000); cpu 0.000 s on 1 threads; allocated 14.879 MB
-make: Entering directory '/home/bandeira/Documents/GIT/Verilog/a/obj_dir'
-make: Nothing to be done for 'default'.
-make: Leaving directory '/home/bandeira/Documents/GIT/Verilog/a/obj_dir'
+
+obj_dir/Vmain:     file format elf64-x86-64
+
+SYMBOL TABLE:
+0000000000000000 l    df *ABS*	0000000000000000              Scrt1.o
+00000000000291d0 l     O .note.ABI-tag	0000000000000020              __abi_tag
+0000000000000000 l    df *ABS*	0000000000000000              Vmain__ALL.cpp
+000000000001d64b l     F .text	0000000000000025              _ZNSt17_Function_handlerIFvP19VerilatedTraceBaseCiiEZN5VmainC4EP16VerilatedContextPKcEUlS1_iiE_E10_M_managerERSt9_Any_dataRKSA_St18_Manager_operation
+000000000002ad78 l     O .data.rel.ro	0000000000000010              _ZTIZN5VmainC4EP16VerilatedContextPKcEUlP19VerilatedTraceBaseCiiE_
+0000000000005d41 l     F .text	0000000000000068              _ZL10trace_initPvP12VerilatedVcdj
+0000000000005f91 l     F .text	000000000000000f              _ZNSt17_Function_handlerIFvP19VerilatedTraceBaseCiiEZN5VmainC4EP16VerilatedContextPKcEUlS1_iiE_E9_M_invokeERKSt9_Any_dataOS1_OiSE_
+0000000000020700 l     O .rodata	0000000000000040              _ZTSZN5VmainC4EP16VerilatedContextPKcEUlP19VerilatedTraceBaseCiiE_
+0000000000000000 l    df *ABS*	0000000000000000              vsss.cpp
+0000000000000000 l    df *ABS*	0000000000000000              verilated.cpp
+000000000000638a l     F .text	0000000000000063              _ZL8VL_MUL_WiPjPKjS1_
+00000000000063ed l     F .text	000000000000004e              _ZL13vl_splitmix64m
+000000000000643b l     F .text	0000000000000014              _ZL22vl_rng_state_from_seedm
+000000000000644f l     F .text	0000000000000022              _ZL24vl_rng_compute_new_stateRKSt5arrayImLm2EE
+0000000000006471 l     F .text	000000000000003c              _ZL15_vl_vsss_setbitPjiiij
+00000000000064ad l     F .text	000000000000001e              _ZL12runCallbacksRKNSt7__cxx114listISt4pairIPFvPvES2_ESaIS5_EEE
+00000000000064d5 l     F .text	0000000000000014              _ZNSt17_Function_handlerIFvvEZ12VL_PRINTF_MTPKczEUlvE_E9_M_invokeERKSt9_Any_data
+00000000000064e9 l     F .text	0000000000000037              _ZL17VL_MOSTSETBITP1_WiPKj
+0000000000006520 l     F .text	0000000000000023              _ZL11vl_time_stri
+000000000002a8a0 l     O .data.rel.ro	0000000000000090              _ZZL11vl_time_striE7s_names
+0000000000006543 l     F .text	0000000000000020              _ZL9VL_ZERO_WiPj
+0000000000006563 l     F .text	000000000000006e              _ZL13_vl_vsss_peekP8_IO_FILERiPKjRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+00000000000065d1 l     F .text	000000000000012a              _ZL10memhFormati
+0000000000002050 l       .tbss	0000000000000020              _ZZL10memhFormatiE5t_buf
+00000000000066fb l     F .text	000000000000000e              _ZL16_vl_vsss_advanceP8_IO_FILERi
+0000000000006709 l     F .text	000000000000004a              _ZL18_vl_vsss_skipspaceP8_IO_FILERiPKjRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+0000000000006753 l     F .text	0000000000000074              _ZL17_vl_vsss_read_binP8_IO_FILERiPKjRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPcmb
+00000000000067c7 l     F .text	0000000000000070              _ZL12formatBinaryij
+0000000000002010 l       .tbss	0000000000000040              _ZZL12formatBinaryijE5t_buf
+0000000000006838 l     F .text	0000000000000009              _ZNSt12_Vector_baseI14VerilatedRangeSaIS0_EE13_M_deallocateEPS0_m.part.0
+0000000000006838 l     F .text	0000000000000009              _ZNSt12_Vector_baseIPK14VerilatedScopeSaIS2_EE13_M_deallocateEPS2_m.part.0
+0000000000006838 l     F .text	0000000000000009              _ZNSt12_Vector_baseIP8_IO_FILESaIS1_EE13_M_deallocateEPS1_m.part.0
+0000000000006838 l     F .text	0000000000000009              _ZNSt12_Vector_baseIPvSaIS0_EE13_M_deallocateEPS0_m.part.0
+0000000000006841 l     F .text	000000000000009a              _ZL17_vl_vsss_read_strP8_IO_FILERiPKjRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPcPKc.constprop.0
+00000000000041b0 l       .tbss	0000000000002000              _ZZ11_vl_vsscanfP8_IO_FILEiPKjRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESA_P13__va_list_tagE5t_tmp
+0000000000011e34 l     F .text	0000000000000023              _ZSt4copyIPP12VerilatedMsgS2_ET0_T_S4_S3_.isra.0
+00000000000068dc l     F .text	0000000000000040              _ZNKSt10_HashtableIPK14VerilatedScopeSt4pairIKS2_St6vectorIS2_SaIS2_EEESaIS8_ENSt8__detail10_Select1stESt8equal_toIS2_ESt4hashIS2_ENSA_18_Mod_range_hashingENSA_20_Default_ranged_hashENSA_20_Prime_rehash_policyENSA_17_Hashtable_traitsILb0ELb0ELb1EEEE19_M_find_before_nodeEmRS4_m.isra.0
+0000000000011e58 l     F .text	000000000000008b              _ZNSt8_Rb_treeIPKcSt4pairIKS1_12VerilatedVarESt10_Select1stIS5_E16VerilatedCStrCmpSaIS5_EE24_M_get_insert_unique_posERS3_.isra.0
+0000000000011ee4 l     F .text	000000000000008b              _ZNSt8_Rb_treeIPKcSt4pairIKS1_PK14VerilatedScopeESt10_Select1stIS7_E16VerilatedCStrCmpSaIS7_EE24_M_get_insert_unique_posERS3_.isra.0
+000000000000691c l     F .text	000000000000008a              _ZNSt17_Function_handlerIFvvEZ12VL_PRINTF_MTPKczEUlvE_E10_M_managerERSt9_Any_dataRKS5_St18_Manager_operation
+000000000002ab68 l     O .data.rel.ro	0000000000000010              _ZTIZ12VL_PRINTF_MTPKczEUlvE_
+00000000000069a6 l     F .text	0000000000000066              _ZNSt17_Function_handlerIFvvEZ10VL_WARN_MTPKciS2_S2_EUlvE_E10_M_managerERSt9_Any_dataRKS5_St18_Manager_operation
+000000000002ab58 l     O .data.rel.ro	0000000000000010              _ZTIZ10VL_WARN_MTPKciS0_S0_EUlvE_
+0000000000006a0c l     F .text	0000000000000066              _ZNSt17_Function_handlerIFvvEZ11VL_FATAL_MTPKciS2_S2_EUlvE_E10_M_managerERSt9_Any_dataRKS5_St18_Manager_operation
+000000000002ab48 l     O .data.rel.ro	0000000000000010              _ZTIZ11VL_FATAL_MTPKciS0_S0_EUlvE_
+0000000000006a72 l     F .text	0000000000000066              _ZNSt17_Function_handlerIFvvEZ10VL_STOP_MTPKciS2_bEUlvE_E10_M_managerERSt9_Any_dataRKS5_St18_Manager_operation
+000000000002ab38 l     O .data.rel.ro	0000000000000010              _ZTIZ10VL_STOP_MTPKciS0_bEUlvE_
+0000000000006ad8 l     F .text	0000000000000066              _ZNSt17_Function_handlerIFvvEZ12VL_FINISH_MTPKciS2_EUlvE_E10_M_managerERSt9_Any_dataRKS5_St18_Manager_operation
+000000000002ab28 l     O .data.rel.ro	0000000000000010              _ZTIZ12VL_FINISH_MTPKciS0_EUlvE_
+0000000000011f70 l     F .text	000000000000008b              _ZNSt8_Rb_treeIPKcSt4pairIKS1_iESt10_Select1stIS4_E16VerilatedCStrCmpSaIS4_EE24_M_get_insert_unique_posERS3_.isra.0
+0000000000011ffc l     F .text	000000000000002e              _ZNSt8_Rb_treeIPKcSt4pairIKS1_PK14VerilatedScopeESt10_Select1stIS7_E16VerilatedCStrCmpSaIS7_EE8_M_eraseEPSt13_Rb_tree_nodeIS7_E.isra.0
+000000000001202a l     F .text	000000000000002e              _ZNSt8_Rb_treeIPKcSt4pairIKS1_iESt10_Select1stIS4_E16VerilatedCStrCmpSaIS4_EE8_M_eraseEPSt13_Rb_tree_nodeIS4_E.isra.0
+0000000000012058 l     F .text	000000000000002e              _ZNSt8_Rb_treeISt4pairIPKvPvES0_IKS4_S3_ESt10_Select1stIS6_ESt4lessIS4_ESaIS6_EE8_M_eraseEPSt13_Rb_tree_nodeIS6_E.isra.0
+0000000000006b3e l     F .text	000000000000006c              _ZSt12__str_concatINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEET_PKNS6_10value_typeENS6_9size_typeES9_SA_RKNS6_14allocator_typeE.isra.0
+0000000000006baa l     F .text	000000000000007c              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag.isra.0
+0000000000006c26 l     F .text	000000000000003b              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IS3_EEPKcRKS3_.constprop.0
+0000000000006c62 l     F .text	0000000000000029              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEaSEPKc.isra.0
+0000000000006c8c l     F .text	0000000000000085              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEaSEOS4_.isra.0
+0000000000006d12 l     F .text	0000000000000005              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEpLERKS4_.isra.0
+0000000000006d18 l     F .text	0000000000000026              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2EPKcmRKS3_.isra.0
+0000000000006d3e l     F .text	000000000000002d              _ZL11VL_NEGATE_WiPjPKj.isra.0
+0000000000006d6b l     F .text	0000000000000021              _ZL11VL_ASSIGN_WiPjPKj.isra.0
+0000000000006d8c l     F .text	0000000000000028              _ZL19_vl_clean_inplace_wiPj.isra.0
+0000000000006db4 l     F .text	0000000000000024              _ZNSt14_Bit_referenceaSEb.isra.0
+0000000000006dd8 l     F .text	000000000000005d              _ZNSt8_Rb_treeIPKcSt4pairIKS1_iESt10_Select1stIS4_E16VerilatedCStrCmpSaIS4_EE4findERS3_.isra.0
+0000000000006e36 l     F .text	000000000000005d              _ZNSt8_Rb_treeIPKcSt4pairIKS1_PK14VerilatedScopeESt10_Select1stIS7_E16VerilatedCStrCmpSaIS7_EE4findERS3_.isra.0
+0000000000006e94 l     F .text	0000000000000037              _ZNSt8_Rb_treeI12VerilatedMsgS0_St9_IdentityIS0_ENS0_3CmpESaIS0_EE8_M_eraseEPSt13_Rb_tree_nodeIS0_E.isra.0
+0000000000012102 l     F .text	0000000000000073              _ZSt9__fill_a1St13_Bit_iteratorS_RKb.isra.0
+0000000000006ecb l     F .text	0000000000000036              _ZL13vl_sys_rand32v
+000000000002b6a0 l     O .bss	0000000000000028              _ZZL13vl_sys_rand32vE7s_mutex
+000000000002b6d0 l     O .bss	0000000000000008              _ZZ23_vl_dbg_sequence_numbervE10s_sequence
+00000000000081d0 l       .tbss	0000000000000008              _ZGVZ12VL_THREAD_IDvE6t_myId
+000000000002b6c8 l     O .bss	0000000000000004              _ZZ12VL_THREAD_IDvE8s_nextId
+00000000000081d8 l       .tbss	0000000000000004              _ZZ12VL_THREAD_IDvE6t_myId
+00000000000201a0 l     O .rodata	0000000000000098              _ZZ18vl_time_multiplieriE5neg10
+0000000000020100 l     O .rodata	0000000000000098              _ZZ18vl_time_multiplieriE5pow10
+0000000000020060 l     O .rodata	00000000000000a0              _ZZ13vl_time_pow10iE5pow10
+000000000002b60c l     O .bss	0000000000000001              _ZZN19VerilatedContextImp9argc_argvEvE8s_loaded
+000000000002b608 l     O .bss	0000000000000004              _ZZN19VerilatedContextImp9argc_argvEvE6s_argc
+000000000002b600 l     O .bss	0000000000000008              _ZZN19VerilatedContextImp9argc_argvEvE7s_argvp
+0000000000000008 l       .tbss	0000000000000008              _ZZN9Verilated7catNameEPKcS1_S1_E6t_strp
+0000000000000000 l       .tbss	0000000000000008              _ZZN9Verilated7catNameEPKcS1_S1_E5t_len
+000000000002b570 l     O .bss	0000000000000004              _ZZN9Verilated17runFlushCallbacksEvE11s_recursing
+000000000002b580 l     O .bss	0000000000000080              _ZL10VlCbStatic
+00000000000093f7 l     F .text	0000000000000013              _ZNSt17_Function_handlerIFvvEZ10VL_WARN_MTPKciS2_S2_EUlvE_E9_M_invokeERKSt9_Any_data
+000000000002b56c l     O .bss	0000000000000004              _ZZN9Verilated16runExitCallbacksEvE11s_recursing
+0000000000009970 l     F .text	0000000000000037              _ZNSt8_Rb_treeIPKcSt4pairIKS1_12VerilatedVarESt10_Select1stIS5_E16VerilatedCStrCmpSaIS5_EE8_M_eraseEPSt13_Rb_tree_nodeIS5_E.isra.0
+000000000002b620 l     O .bss	0000000000000028              _ZZ15VL_STACKTRACE_NB5cxx11vE17s_stackTraceMutex
+000000000002b660 l     O .bss	0000000000000028              _ZZL23_vl_stacktrace_demangleRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE15s_demangleMutex
+000000000000a118 l     F .text	0000000000000017              _ZN10._anon_160D2Ev
+000000000000a118 l     F .text	0000000000000017              _ZN10._anon_160D1Ev
+000000000000ce31 l     F .text	000000000000000f              _ZNSt17_Function_handlerIFvvEZ12VL_FINISH_MTPKciS2_EUlvE_E9_M_invokeERKSt9_Any_data
+000000000000cfb9 l     F .text	0000000000000016              _ZNSt17_Function_handlerIFvvEZ10VL_STOP_MTPKciS2_bEUlvE_E9_M_invokeERKSt9_Any_data
+000000000000cea9 l     F .text	0000000000000017              _ZNSt17_Function_handlerIFvvEZ11VL_FATAL_MTPKciS2_S2_EUlvE_E9_M_invokeERKSt9_Any_data
+0000000000000010 l       .tbss	0000000000002000              _ZZN16VerilatedContext20commandArgsPlusMatchEPKcE8t_outstr
+000000000000ad0c l     F .text	000000000000016f              _ZZN19VerilatedContextImp18commandArgVlUint64ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_RmmmENKUlS7_E_clES7_
+00000000000081b8 l       .tbss	0000000000000008              _ZGVZN5VlRNG13vl_thread_rngEvE5t_rng
+00000000000081c0 l       .tbss	0000000000000010              _ZZN5VlRNG13vl_thread_rngEvE5t_rng
+00000000000081b0 l       .tbss	0000000000000004              _ZZN5VlRNG13vl_thread_rngEvE11t_seedEpoch
+000000000000da08 l     F .text	000000000000005f              _ZL7getLineRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjm
+00000000000061b0 l       .tbss	0000000000002000              _ZZ12_vl_vsformatRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKS4_P13__va_list_tagE5t_tmp
+0000000000004188 l       .tbss	0000000000000008              _ZGVZ13VL_SFORMAT_NXiRhRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEizE8t_output
+0000000000004190 l       .tbss	0000000000000020              _ZZ13VL_SFORMAT_NXiRhRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEizE8t_output
+0000000000004160 l       .tbss	0000000000000008              _ZGVZ13VL_SFORMAT_NXiRtRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEizE8t_output
+0000000000004168 l       .tbss	0000000000000020              _ZZ13VL_SFORMAT_NXiRtRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEizE8t_output
+0000000000004138 l       .tbss	0000000000000008              _ZGVZ13VL_SFORMAT_NXiRjRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEizE8t_output
+0000000000004140 l       .tbss	0000000000000020              _ZZ13VL_SFORMAT_NXiRjRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEizE8t_output
+0000000000004110 l       .tbss	0000000000000008              _ZGVZ13VL_SFORMAT_NXiRmRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEizE8t_output
+0000000000004118 l       .tbss	0000000000000020              _ZZ13VL_SFORMAT_NXiRmRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEizE8t_output
+00000000000040e8 l       .tbss	0000000000000008              _ZGVZ13VL_SFORMAT_NXiPvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEizE8t_output
+00000000000040f0 l       .tbss	0000000000000020              _ZZ13VL_SFORMAT_NXiPvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEizE8t_output
+00000000000040c0 l       .tbss	0000000000000008              _ZGVZ16VL_SFORMATF_N_NXRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEizE8t_output
+00000000000040c8 l       .tbss	0000000000000020              _ZZ16VL_SFORMATF_N_NXRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEizE8t_output
+0000000000004098 l       .tbss	0000000000000008              _ZGVZ12VL_WRITEF_NXRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEizE8t_output
+00000000000040a0 l       .tbss	0000000000000020              _ZZ12VL_WRITEF_NXRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEizE8t_output
+0000000000004070 l       .tbss	0000000000000008              _ZGVZ13VL_FWRITEF_NXjRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEizE8t_output
+0000000000004078 l       .tbss	0000000000000020              _ZZ13VL_FWRITEF_NXjRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEizE8t_output
+0000000000002070 l       .tbss	0000000000002000              _ZZ19vl_mc_scan_plusargsPKcE8t_outstr
+000000000000611a l     F .text	0000000000000070              _GLOBAL__sub_I__ZN9Verilated7s_debugE
+000000000001ffb0 l     O .rodata	000000000000001e              _ZTSZ12VL_FINISH_MTPKciS0_EUlvE_
+000000000001ffd0 l     O .rodata	000000000000001d              _ZTSZ10VL_STOP_MTPKciS0_bEUlvE_
+0000000000020000 l     O .rodata	0000000000000020              _ZTSZ11VL_FATAL_MTPKciS0_S0_EUlvE_
+0000000000020020 l     O .rodata	000000000000001f              _ZTSZ10VL_WARN_MTPKciS0_S0_EUlvE_
+0000000000020040 l     O .rodata	000000000000001b              _ZTSZ12VL_PRINTF_MTPKczEUlvE_
+0000000000000000 l    df *ABS*	0000000000000000              verilated_threads.cpp
+000000000001b150 l     F .text	0000000000000001              _ZL12shutdownTaskPvb
+000000000001b151 l     F .text	0000000000000005              _ZZN14VlWorkerThread4waitEvENUlPvbE_4_FUNES0_b
+000000000001ca87 l     F .text	00000000000000e8              _ZSt13__adjust_heapIN9__gnu_cxx17__normal_iteratorIPiSt6vectorIiSaIiEEEEliNS0_5__ops15_Iter_less_iterEEvT_T0_SA_T1_T2_.isra.0
+000000000001b156 l     F .text	000000000000002e              _ZSt23__copy_move_backward_a2ILb1EPiS0_ET1_T0_S2_S1_.isra.0
+000000000001b184 l     F .text	0000000000000023              _ZSt4copyIPPmS1_ET0_T_S3_S2_.isra.0
+000000000001cb70 l     F .text	0000000000000062              _ZNSt8_Rb_treeIiSt4pairIKiiESt10_Select1stIS2_ESt4lessIiESaIS2_EE24_M_get_insert_unique_posERS1_.isra.0
+000000000001b1a8 l     F .text	000000000000002b              _ZNSt8_Rb_treeIiSt4pairIKiiESt10_Select1stIS2_ESt4lessIiESaIS2_EE23_M_get_insert_equal_posERS1_.isra.0
+000000000001b1d4 l     F .text	0000000000000062              _ZNSt8_Rb_treeIiiSt9_IdentityIiESt4lessIiESaIiEE24_M_get_insert_unique_posERKi.isra.0
+000000000001b236 l     F .text	000000000000006d              _ZNSt8_Rb_treeIiSt4pairIKiiESt10_Select1stIS2_ESt4lessIiESaIS2_EE11equal_rangeERS1_.isra.0
+000000000001b2a4 l     F .text	000000000000002e              _ZNSt8_Rb_treeIiiSt9_IdentityIiESt4lessIiESaIiEE8_M_eraseEPSt13_Rb_tree_nodeIiE.isra.0
+000000000001b2d2 l     F .text	000000000000002e              _ZNSt8_Rb_treeIiSt4pairIKiiESt10_Select1stIS2_ESt4lessIiESaIS2_EE8_M_eraseEPSt13_Rb_tree_nodeIS2_E.isra.0
+000000000001b300 l     F .text	0000000000000033              _ZNSt3setIiSt4lessIiESaIiEE4findERKi.isra.0
+000000000001b334 l     F .text	0000000000000025              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6appendEPKcm.isra.0
+000000000001cbd2 l     F .text	0000000000000052              _ZSt16__insertion_sortIN9__gnu_cxx17__normal_iteratorIPiSt6vectorIiSaIiEEEENS0_5__ops15_Iter_less_iterEEvT_S9_T0_.isra.0
+000000000001cc24 l     F .text	0000000000000113              _ZSt16__introsort_loopIN9__gnu_cxx17__normal_iteratorIPiSt6vectorIiSaIiEEEElNS0_5__ops15_Iter_less_iterEEvT_S9_T0_T1_.isra.0
+0000000000000000 l    df *ABS*	0000000000000000              crtbeginS.o
+00000000000062c0 l     F .text	0000000000000000              deregister_tm_clones
+00000000000062f0 l     F .text	0000000000000000              register_tm_clones
+0000000000006330 l     F .text	0000000000000000              __do_global_dtors_aux
+000000000002b548 l     O .bss	0000000000000001              completed.0
+000000000002a898 l     O .fini_array	0000000000000000              __do_global_dtors_aux_fini_array_entry
+0000000000006380 l     F .text	0000000000000000              frame_dummy
+000000000002a888 l     O .init_array	0000000000000000              __frame_dummy_init_array_entry
+0000000000000000 l    df *ABS*	0000000000000000              verilated_vcd_c.cpp
+00000000000159a4 l     F .text	00000000000000e1              _ZL17timescaleToDoublePKc
+0000000000015a85 l     F .text	000000000000003c              _ZL13cvtSDataToStrPct
+0000000000015ac1 l     F .text	0000000000000015              _ZL13cvtIDataToStrPcj
+0000000000019e91 l     F .text	0000000000000023              _ZSt4copyIPPPjS2_ET0_T_S4_S3_.isra.0
+0000000000015b0c l     F .text	000000000000002e              _ZNSt8_Rb_treeIPK14VerilatedModelS2_St9_IdentityIS2_ESt4lessIS2_ESaIS2_EE8_M_eraseEPSt13_Rb_tree_nodeIS2_E.isra.0
+0000000000015b3a l     F .text	000000000000007c              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag.isra.0
+0000000000015bb6 l     F .text	0000000000000024              _ZNSt14_Bit_referenceaSEb.isra.0
+0000000000015bda l     F .text	0000000000000025              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6appendEPKcm.isra.0
+0000000000015c00 l     F .text	0000000000000009              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEpLERKS4_.isra.0
+0000000000015c0a l     F .text	00000000000000fc              _ZNSt6vectorIbSaIbEE15_M_copy_alignedESt19_Bit_const_iteratorS2_St13_Bit_iterator.isra.0
+0000000000017cec l     F .text	00000000000001b3              _ZNSt6vectorISt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE24VerilatedTracePrefixTypeESaIS8_EE12emplace_backIJRKS6_S7_EEERS8_DpOT_.isra.0
+0000000000000000 l    df *ABS*	0000000000000000              crtendS.o
+00000000000281ec l     O .eh_frame	0000000000000000              __FRAME_END__
+0000000000000000 l    df *ABS*	0000000000000000              
+0000000000020740 l       .eh_frame_hdr	0000000000000000              __GNU_EH_FRAME_HDR
+000000000002ad88 l     O .dynamic	0000000000000000              _DYNAMIC
+000000000002afe8 l     O .got.plt	0000000000000000              _GLOBAL_OFFSET_TABLE_
+000000000001a042  w    F .text	0000000000000066              _ZNSt3_V222condition_variable_anyC2Ev
+0000000000000000       F *UND*	0000000000000000              ftell@GLIBC_2.2.5
+0000000000000000       F *UND*	0000000000000000              _Znam@GLIBCXX_3.4
+000000000001ad46  w    F .text	0000000000000027              _ZNSt11unique_lockISt5mutexE6unlockEv
+0000000000008fc8 g     F .text	000000000000000b              _ZNK16VerilatedContext19timeprecisionStringEv
+000000000001d2ce  w    F .text	0000000000000014              _ZNSt8_Rb_treeIiSt4pairIKiiESt10_Select1stIS2_ESt4lessIiESaIS2_EE10_Auto_nodeD1Ev
+000000000001b35a g     F .text	0000000000000008              _ZN13VlMTaskVertexC2Ej
+0000000000012176  w    F .text	000000000000003d              _ZN14VerilatedMutex4lockEv
+000000000002a990  w    O .data.rel.ro	0000000000000038              _ZTV16VerilatedVcdFile
+00000000000177ea g     F .text	00000000000000a4              _ZN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE9addInitCbEPFvPvPS0_jES3_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbj
+000000000001682e g     F .text	0000000000000069              _ZN20VerilatedTraceBufferI18VerilatedVcdBufferE10fullDoubleEPjd
+0000000000008af0 g     F .text	000000000000003f              _ZN16VerilatedContext10SerializedC1Ev
+0000000000012c1a  w    F .text	000000000000017c              _ZN23VerilatedThreadMsgQueue5flushEP21VerilatedEvalMsgQueue
+000000000000b026 g     F .text	0000000000000103              _ZN16VerilatedContext5traceEP19VerilatedTraceBaseCii
+0000000000007230 g     F .text	0000000000000013              _ZN5VlRNG7srandomEm
+0000000000014ca2  w    F .text	0000000000000031              _ZNSt6vectorIjSaIjEE6resizeEm
+0000000000012086  w    F .text	0000000000000017              _ZNSt14_Function_baseD1Ev
+0000000000015d06 g     F .text	000000000000003e              _ZN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE18parallelWorkerTaskEPvb
+0000000000000000       F *UND*	0000000000000000              __errno_location@GLIBC_2.2.5
+0000000000000000       F *UND*	0000000000000000              printf@GLIBC_2.2.5
+0000000000000000       F *UND*	0000000000000000              _ZSt18uncaught_exceptionv@GLIBCXX_3.4
+000000000001861e g     F .text	000000000000007d              _ZN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE18ParallelWorkerData4waitEv
+0000000000014532  w    F .text	0000000000000101              _ZNSt8_Rb_treeIPKcSt4pairIKS1_PK14VerilatedScopeESt10_Select1stIS7_E16VerilatedCStrCmpSaIS7_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS7_ERS3_
+000000000001ca52  w    F .text	000000000000000f              _ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJPFPvS3_EP14VlWorkerThreadEEEEED1Ev
+0000000000000000       F *UND*	0000000000000000              _ZNSt8__detail15_List_node_base7_M_hookEPS0_@GLIBCXX_3.4.15
+00000000000119be g     F .text	0000000000000094              _ZN18VerilatedHierarchy5clearEv
+000000000000b34c g     F .text	000000000000001d              _ZN9Verilated29scTraceBeforeElaborationErrorEv
+0000000000000000       F *UND*	0000000000000000              isspace@GLIBC_2.2.5
+00000000000082ae g     F .text	0000000000000034              _Z13VL_TOUPPER_NNRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+0000000000014f1d  w    F .text	00000000000003df              _Z17_vl_vsformat_timeImENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPcT_ibm
+000000000002b500 g     O .bss	0000000000000008              stdout@GLIBC_2.2.5
+000000000001da32 g     F .text	0000000000000030              _ZN11Vmain__SymsD2Ev
+000000000000869e g     F .text	0000000000000079              _Z9VL_NTOI_WiPjRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+000000000000d8c2 g     F .text	00000000000000e6              _Z22VL_SCOPED_RAND_RESET_WiPjmm
+0000000000012b92  w    F .text	000000000000001c              _ZNSt12_Vector_baseI14VerilatedRangeSaIS0_EED1Ev
+00000000000070bb g     F .text	0000000000000012              _Z23_vl_dbg_sequence_numberv
+0000000000015820  w    F .text	0000000000000052              _ZNSt6vectorI14VerilatedRangeSaIS0_EEC1ERKS2_
+0000000000008718 g     F .text	0000000000000012              _ZN9VlReadMemD2Ev
+0000000000015efc g     F .text	000000000000003d              _ZN27VerilatedTraceOffloadBufferI18VerilatedVcdBufferEC1ER12VerilatedVcd
+000000000002b560 g     O .bss	0000000000000008              _ZN9Verilated14s_lastContextpE
+000000000000e220 g     F .text	00000000000000e5              _ZN14VerilatedScopeC2EP13VerilatedSymsPKcS3_S3_aNS_4TypeE
+000000000000721c g     F .text	0000000000000013              _ZN5VlRNGC1Em
+0000000000000000       F *UND*	0000000000000000              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6appendEPKcm@GLIBCXX_3.4.21
+000000000001a480  w    F .text	000000000000004e              _ZNSt5dequeIPjSaIS0_EE9pop_frontEv
+000000000000f47e g     F .text	0000000000000156              _Z13VL_SFORMAT_NXiRhRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEiz
+000000000001d0ef  w    F .text	0000000000000093              _ZSt4sortIN9__gnu_cxx17__normal_iteratorIPiSt6vectorIiSaIiEEEEEvT_S7_
+000000000001a112  w    F .text	000000000000003b              _ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE24_M_release_last_use_coldEv
+0000000000000000       O *UND*	0000000000000000              _ZTINSt6thread6_StateE@GLIBCXX_3.4.22
+000000000000a130 g     F .text	0000000000000068              _ZN9Verilated13removeFlushCbEPFvPvES0_
+0000000000014a01  w    F .text	000000000000002d              _ZNSt27__uninitialized_default_n_1ILb1EE18__uninit_default_nIPP8_IO_FILEmEET_S5_T0_
+000000000001b41a g     F .text	00000000000001a6              _ZN14VlWorkerThreadC1EP16VerilatedContext
+0000000000000000       F *UND*	0000000000000000              ungetc@GLIBC_2.2.5
+000000000002b568 g     O .bss	0000000000000004              _ZN9Verilated7s_debugE
+000000000001ab10  w    F .text	0000000000000016              _ZNSt6vectorIN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE14CallbackRecordESaIS4_EE12_Guard_allocD1Ev
+0000000000000000       F *UND*	0000000000000000              _ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_@GLIBCXX_3.4
+0000000000000000       F *UND*	0000000000000000              pthread_mutex_trylock@GLIBC_2.34
+000000000001d00e  w    F .text	00000000000000e1              _ZNSt6vectorIiSaIiEE9push_backERKi
+0000000000009184 g     F .text	0000000000000034              _ZN16VerilatedContext8randSeedEi
+0000000000000000       F *UND*	0000000000000000              _ZSt7getlineIcSt11char_traitsIcESaIcEERSt13basic_istreamIT_T0_ES7_RNSt7__cxx1112basic_stringIS4_S5_T1_EE@GLIBCXX_3.4.21
+000000000001cfc6  w    F .text	0000000000000018              _ZNSt12_Vector_baseIN14VlWorkerThread7ExecRecESaIS1_EED2Ev
+00000000000143a9  w    F .text	0000000000000189              _ZN12VerilatedImp16exportInsertNameEPKc
+000000000001a452  w    F .text	000000000000002d              _ZNSt6vectorISt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE24VerilatedTracePrefixTypeESaIS8_EED1Ev
+0000000000012bc6  w    F .text	0000000000000054              _ZNSt8functionIFvvEEC1ERKS1_
+000000000002ad38  w    O .data.rel.ro	0000000000000018              _ZTI11Vmain__Syms
+0000000000008e66 g     F .text	000000000000003b              _ZN16VerilatedContext15profVltFilenameERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+000000000001d724 g     F .text	0000000000000118              _ZN11Vmain__SymsC1EP16VerilatedContextPKcP5Vmain
+000000000000a435 g     F .text	00000000000000fe              _Z10VL_STOP_MTPKciS0_b
+0000000000019e4c  w    F .text	000000000000000f              _ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJM14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferEFvvEPS6_EEEEED2Ev
+0000000000012da6  w    F .text	0000000000000104              _ZN21VerilatedEvalMsgQueue7processEv
+000000000001da62 g     F .text	0000000000000031              _ZN5VmainD2Ev
+0000000000007244 g     F .text	0000000000000019              _ZN5VlRNG6rand64Ev
+0000000000015872  w    F .text	0000000000000131              _ZNSt8_Rb_treeIPKcSt4pairIKS1_12VerilatedVarESt10_Select1stIS5_E16VerilatedCStrCmpSaIS5_EE22_M_emplace_hint_uniqueIJRS1_RS4_EEESt17_Rb_tree_iteratorIS5_ESt23_Rb_tree_const_iteratorIS5_EDpOT_
+000000000001011d g     F .text	000000000000014e              _Z12VL_WRITEF_NXRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEiz
+0000000000019cb8 g     F .text	0000000000000002              _ZN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE6onExitEPv
+0000000000014cd3  w    F .text	00000000000000ba              _ZN9Verilated14threadContextpEv
+0000000000019db2 g     F .text	0000000000000043              _ZN12VerilatedVcd5flushEv
+000000000000f880 g     F .text	0000000000000156              _Z13VL_SFORMAT_NXiRmRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEiz
+0000000000000000       F *UND*	0000000000000000              _ZdlPvmSt11align_val_t@CXXABI_1.3.11
+000000000002aa08  w    O .data.rel.ro	0000000000000028              _ZTVNSt6thread11_State_implINS_8_InvokerISt5tupleIJM14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferEFvvEPS6_EEEEEE
+0000000000012b28  w    F .text	000000000000001f              _ZStplIcSt11char_traitsIcESaIcEENSt7__cxx1112basic_stringIT_T0_T1_EEOS8_PKS5_
+000000000000982c g     F .text	0000000000000043              _ZNK16VerilatedContext22statWallTimeSinceStartEv
+000000000002ac58  w    O .data.rel.ro	0000000000000018              _ZTI27VerilatedTraceOffloadBufferI18VerilatedVcdBufferE
+0000000000005da9 g     F .text	0000000000000005              _Z31Vmain___024root__trace_init_topP15Vmain___024rootP12VerilatedVcd
+000000000001a28c  w    F .text	000000000000003f              _ZNSt6vectorISt4pairIiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEESaIS7_EED2Ev
+0000000000000000       F *UND*	0000000000000000              isxdigit@GLIBC_2.2.5
+000000000000cec0 g     F .text	0000000000000079              _Z7vl_stopPKciS0_
+0000000000000000       F *UND*	0000000000000000              _ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@GLIBCXX_3.4.21
+000000000000f5d4 g     F .text	0000000000000156              _Z13VL_SFORMAT_NXiRtRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEiz
+000000000002b4f8 g       .data	0000000000000000              _edata
+0000000000006f01 g     F .text	00000000000000e9              _Z19vl_print_warn_errorPKcS0_iS0_
+000000000001dad0  w    F .text	000000000000001b              _ZN9VlDeleterD2Ev
+0000000000000000       F *UND*	0000000000000000              _ZNSt14basic_ifstreamIcSt11char_traitsIcEED1Ev@GLIBCXX_3.4
+0000000000013880  w    F .text	0000000000000019              _ZNSt6vectorIjSaIjEE12_Guard_allocD2Ev
+0000000000013024  w    F .text	000000000000002e              _ZNSt7__cxx114listISt4pairIPFvPvES2_ESaIS5_EE9push_backERKS5_
+0000000000017644 g     F .text	0000000000000032              _ZN12VerilatedVcd9declArrayEjjPKci26VerilatedTraceSigDirection21VerilatedTraceSigKind21VerilatedTraceSigTypebiii
+000000000001d6d6 g     F .text	0000000000000009              _ZNK5Vmain7atCloneEv
+000000000001a8ac  w    F .text	0000000000000027              _ZNSt6vectorIN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE14CallbackRecordESaIS4_EED2Ev
+000000000001924e g     F .text	00000000000000ff              _ZN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferED2Ev
+0000000000000000       F *UND*	0000000000000000              _ZSt9terminatev@GLIBCXX_3.4
+0000000000000000       F *UND*	0000000000000000              getc@GLIBC_2.2.5
+000000000000df05 g     F .text	0000000000000013              _Z11VL_FFLUSH_Ij
+0000000000000000       F *UND*	0000000000000000              _ZNSt18condition_variable4waitERSt11unique_lockISt5mutexE@GLIBCXX_3.4.30
+0000000000008fd4 g     F .text	0000000000000008              _ZN16VerilatedContext13useNumaAssignEb
+000000000001da62 g     F .text	0000000000000031              _ZN5VmainD1Ev
+0000000000007801 g     F .text	000000000000003a              _Z10VL_POW_WWQiiiPjPKjm
+0000000000008698 g     F .text	0000000000000006              _Z9VL_NTOI_IiRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+000000000001a5ea  w    F .text	0000000000000087              _ZN20VerilatedThreadQueueIPjEC1Ev
+00000000000099ae g     F .text	0000000000000012              _ZN9Verilated9endOfEvalEP21VerilatedEvalMsgQueue
+00000000000183aa g     F .text	00000000000001d0              _ZN12VerilatedVcd17commitTraceBufferEP20VerilatedTraceBufferI18VerilatedVcdBufferE
+0000000000000000       F *UND*	0000000000000000              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcm@GLIBCXX_3.4.21
+000000000000cf39 g     F .text	0000000000000080              _Z13vl_stop_maybePKciS0_b
+0000000000008d54 g     F .text	000000000000001c              _ZN16VerilatedContext15fatalOnVpiErrorEb
+000000000001209e  w    F .text	000000000000002b              _ZNSt18_Bit_iterator_base7_M_incrEl
+000000000002b4a0  w      .data	0000000000000000              data_start
+000000000001aad4  w    F .text	000000000000003c              _ZN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE14CallbackRecordC2ERKS3_
+000000000001c52e g     F .text	0000000000000524              _ZN12VlThreadPoolC1EP16VerilatedContextj
+000000000001b058  w    F .text	0000000000000023              _ZNSt5dequeIPjSaIS0_EE22_M_reserve_map_at_backEm
+0000000000000000       F *UND*	0000000000000000              strerror@GLIBC_2.2.5
+0000000000000000       F *UND*	0000000000000000              _ZNSolsEPFRSt8ios_baseS0_E@GLIBCXX_3.4
+000000000001e000 g     O .rodata	0000000000000004              _IO_stdin_used
+000000000000c848 g     F .text	0000000000000133              _ZN19VerilatedContextImp11scopeInsertEPK14VerilatedScope
+0000000000000000       F *UND*	0000000000000000              write@GLIBC_2.2.5
+000000000001b3da g     F .text	0000000000000040              _ZN14VlWorkerThreadD1Ev
+0000000000000000       F *UND*	0000000000000000              _ZSt17__throw_bad_allocv@GLIBCXX_3.4
+0000000000008718 g     F .text	0000000000000012              _ZN9VlReadMemD1Ev
+0000000000000000       F *UND*	0000000000000000              strchr@GLIBC_2.2.5
+0000000000000000       F *UND*	0000000000000000              _ZSt25__throw_bad_function_callv@GLIBCXX_3.4.14
+000000000001acdc  w    F .text	0000000000000016              _ZNSt6vectorISt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE24VerilatedTracePrefixTypeESaIS8_EE12_Guard_allocD1Ev
+000000000002ad20  w    O .data.rel.ro	0000000000000018              _ZTI5Vmain
+0000000000012f7c  w    F .text	000000000000001c              _ZNSt12_Vector_baseIP8_IO_FILESaIS1_EED2Ev
+000000000000f9d6 g     F .text	0000000000000156              _Z13VL_SFORMAT_NXiPvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEiz
+00000000000203e0  w    O .rodata	0000000000000034              _ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE
+000000000000d092 g     F .text	0000000000000045              _ZN5VlRNGC1Ev
+00000000000137b5  w    F .text	0000000000000084              _ZN12VerilatedImp8userDumpEv
+000000000000940a g     F .text	0000000000000056              _ZN9Verilated16runExitCallbacksEv
+000000000001dab8  w    F .text	0000000000000018              _ZNSt12_Vector_baseIP11VlDeletableSaIS1_EED2Ev
+000000000001a1f2  w    F .text	000000000000004b              _ZNSt11_Deque_baseIPjSaIS0_EED2Ev
+00000000000060bd g     F .text	000000000000000d              _Z29Vmain___024root__trace_full_0PvP20VerilatedTraceBufferI18VerilatedVcdBufferE
+0000000000000000       F *UND*	0000000000000000              __isoc23_sscanf@GLIBC_2.38
+0000000000000000       F *UND*	0000000000000000              __cxa_begin_catch@CXXABI_1.3
+0000000000015433  w    F .text	00000000000001c3              _ZN12VerilatedImp12exportInsertEPKcPv
+0000000000019dfa  w    F .text	0000000000000007              _ZN12VerilatedVcd11preFullDumpEv
+0000000000014688  w    F .text	0000000000000184              _ZNSt6vectorISt8functionIFvP19VerilatedTraceBaseCiiEESaIS4_EE17_M_realloc_appendIJRKS4_EEEvDpOT_
+000000000000df62 g     F .text	0000000000000260              _ZN16VerilatedContext17statsPrintSummaryEv
+0000000000017c4a g     F .text	00000000000000a2              _ZN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE12addCleanupCbEPFvPvPS0_ES3_
+0000000000009504 g     F .text	000000000000004d              _ZNK17VerilatedVarProps9totalSizeEv
+0000000000000000  w    F *UND*	0000000000000000              __cxa_finalize@GLIBC_2.2.5
+0000000000000000       F *UND*	0000000000000000              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1ERKS4_@GLIBCXX_3.4.21
+0000000000008d1c g     F .text	000000000000001b              _ZN16VerilatedContext10errorLimitEi
+0000000000000000       F *UND*	0000000000000000              strlen@GLIBC_2.2.5
+0000000000015ffe g     F .text	0000000000000160              _ZN12VerilatedVcd11bufferFlushEv
+0000000000019e24  w    F .text	000000000000000a              _ZN20VerilatedTraceBufferI18VerilatedVcdBufferED0Ev
+0000000000008e24 g     F .text	0000000000000042              _ZNK16VerilatedContext16profExecFilenameB5cxx11Ev
+0000000000000000       F *UND*	0000000000000000              memcmp@GLIBC_2.2.5
+0000000000009e2e g     F .text	0000000000000252              _ZN4VlOs13memUsageBytesERmS0_
+0000000000000000       F *UND*	0000000000000000              _ZNSt6thread6_StateD2Ev@GLIBCXX_3.4.22
+0000000000000000       F *UND*	0000000000000000              mkdir@GLIBC_2.2.5
+00000000000117a9 g     F .text	00000000000000bd              _Z19vl_mc_scan_plusargsPKc
+000000000000b4c0 g     F .text	0000000000000193              _ZNK14VerilatedScope15exportFindErrorEi
+000000000000a8d6 g     F .text	00000000000002b1              _ZN16VerilatedContext8addModelEPK14VerilatedModel
+0000000000000000       F *UND*	0000000000000000              strncmp@GLIBC_2.2.5
+0000000000015820  w    F .text	0000000000000052              _ZNSt6vectorI14VerilatedRangeSaIS0_EEC2ERKS2_
+00000000000131a0  w    F .text	00000000000000bf              _ZNSt6vectorIPK14VerilatedScopeSaIS2_EE17_M_realloc_appendIJRKS2_EEEvDpOT_
+000000000001d83c g     F .text	0000000000000114              _ZN5VmainC2EP16VerilatedContextPKc
+000000000001d212  w    F .text	00000000000000bb              _ZNSt6vectorIP14VlWorkerThreadSaIS1_EE17_M_realloc_appendIJS1_EEEvDpOT_
+000000000001a28c  w    F .text	000000000000003f              _ZNSt6vectorISt4pairIiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEESaIS7_EED1Ev
+0000000000008bc4 g     F .text	000000000000001c              _ZN16VerilatedContext14calcUnusedSigsEb
+000000000001d702 g     F .text	0000000000000014              _Z28Vmain___024root__trace_chg_0PvP20VerilatedTraceBufferI18VerilatedVcdBufferE
+00000000000060ca g     F .text	0000000000000050              main
+000000000001412e  w    F .text	000000000000015f              _ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE17_M_realloc_appendIJRPKcEEEvDpOT_
+0000000000019e10  w    F .text	000000000000000a              _ZN27VerilatedTraceOffloadBufferI18VerilatedVcdBufferED0Ev
+0000000000000000       F *UND*	0000000000000000              _ZNSt18condition_variable10notify_oneEv@GLIBCXX_3.4.11
+000000000002ab90  w    O .data.rel.ro	0000000000000040              _ZTV14VerilatedModel
+000000000001a0a8  w    F .text	0000000000000025              _ZNSt3_V222condition_variable_any10notify_oneEv
+000000000001d724 g     F .text	0000000000000118              _ZN11Vmain__SymsC2EP16VerilatedContextPKcP5Vmain
+000000000001b5c0 g     F .text	000000000000006a              _ZN12VlThreadPoolD1Ev
+000000000001d496  w    F .text	000000000000008a              _ZN14VlWorkerThread9dequeWorkILb1EEEvPNS_7ExecRecE
+0000000000008078 g     F .text	000000000000006b              _Z12VL_FERROR_INjRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+000000000001a6a4  w    F .text	000000000000000f              _ZNSt10unique_ptrINSt6thread6_StateESt14default_deleteIS1_EED1Ev
+000000000000a802 g     F .text	0000000000000099              _ZN16VerilatedContextD1Ev
+0000000000000000       F *UND*	0000000000000000              _ZNSt8__detail15_List_node_base11_M_transferEPS0_S1_@GLIBCXX_3.4.15
+000000000001792c g     F .text	000000000000009d              _ZN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE10addConstCbEPFvPvP27VerilatedTraceOffloadBufferIS1_EEjS3_
+00000000000166d8 g     F .text	0000000000000070              _ZN20VerilatedTraceBufferI18VerilatedVcdBufferE9fullQDataEPjmi
+000000000002ac40  w    O .data.rel.ro	0000000000000018              _ZTI20VerilatedTraceBufferI18VerilatedVcdBufferE
+0000000000019e08  w    F .text	0000000000000001              _ZN16VerilatedVcdFileD1Ev
+000000000001a672  w    F .text	0000000000000025              _ZNSt15__uniq_ptr_implISt6threadSt14default_deleteIS0_EE5resetEPS0_
+00000000000161a2 g     F .text	00000000000001cf              _ZN12VerilatedVcd14emitTimeChangeEm
+000000000001dab8  w    F .text	0000000000000018              _ZNSt12_Vector_baseIP11VlDeletableSaIS1_EED1Ev
+000000000000cfd0 g     F .text	000000000000007e              _ZN5VlRNG13vl_thread_rngEv
+0000000000012f98  w    F .text	0000000000000018              _ZNSt12_Vector_baseIjSaIjEED2Ev
+000000000000ae7c g     F .text	00000000000001a9              _ZN19VerilatedContextImp18commandArgVlUint64ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_Rmmm
+000000000000a340 g     F .text	00000000000000f5              _Z12VL_FINISH_MTPKciS0_
+000000000002aac8  w    O .data.rel.ro	0000000000000040              _ZTV5Vmain
+000000000000b654 g     F .text	0000000000000050              _ZN14VerilatedScope10exportFindEPKS_i
+000000000001b372 g     F .text	0000000000000068              _ZN14VlWorkerThread4waitEv
+000000000000ce0a g     F .text	0000000000000027              _Z9vl_finishPKciS0_
+000000000001d62c g     F .text	000000000000001f              _ZNK5Vmain11traceConfigEv
+0000000000011673 g     F .text	0000000000000136              _Z20VL_VALUEPLUSARGS_INNiRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERS4_
+0000000000008c5e g     F .text	0000000000000044              _ZN16VerilatedContext8dumpfileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+000000000001a452  w    F .text	000000000000002d              _ZNSt6vectorISt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE24VerilatedTracePrefixTypeESaIS8_EED2Ev
+0000000000009901 g     F .text	0000000000000012              _ZN4VlOs28getProcessDefaultParallelismEv
+0000000000000000       F *UND*	0000000000000000              _ZSt20__throw_length_errorPKc@GLIBCXX_3.4
+00000000000206af  w    O .rodata	0000000000000007              _ZTS5Vmain
+000000000001cff6  w    F .text	0000000000000018              _ZNSt12_Vector_baseIiSaIiEED1Ev
+000000000001a7a2  w    F .text	00000000000000e9              _ZNSt6vectorIcSaIcEE14_M_fill_appendEmRKc
+0000000000000000       F *UND*	0000000000000000              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_assignERKS4_@GLIBCXX_3.4.21
+0000000000008de8 g     F .text	000000000000003b              _ZN16VerilatedContext16profExecFilenameERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+0000000000016748 g     F .text	00000000000000e6              _ZN20VerilatedTraceBufferI18VerilatedVcdBufferE9fullWDataEPjPKji
+0000000000005970 g     F .text	0000000000000001              _ZN5Vmain5finalEv
+0000000000020638  w    O .rodata	000000000000000f              _ZTS12VlThreadPool
+0000000000000000       F *UND*	0000000000000000              _ZNSi10_M_extractImEERSiRT_@GLIBCXX_3.4.9
+000000000000df18 g     F .text	0000000000000023              _Z10VL_FSEEK_Ijjj
+000000000002b4a8 g     O .data	0000000000000000              .hidden __dso_handle
+00000000000119b8 g     F .text	0000000000000005              _ZN18VerilatedHierarchy6removeEPK14VerilatedScopeS2_
+0000000000019e0e  w    F .text	0000000000000001              _ZNSt23_Sp_counted_ptr_inplaceISt5mutexSaIvELN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv
+0000000000008418 g     F .text	0000000000000076              _Z18VL_CVT_PACK_STR_NDRK7VlQueueINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEELm0EE
+00000000000163b8 g     F .text	000000000000008d              _ZN12VerilatedVcd9popPrefixEv
+00000000000197e2 g     F .text	0000000000000033              _ZN12VerilatedVcd9closePrevEv
+0000000000006090 g     F .text	0000000000000010              _Z30Vmain___024root__trace_const_0PvP20VerilatedTraceBufferI18VerilatedVcdBufferE
+000000000001252c  w    F .text	00000000000000b8              _ZN19VerilatedContextImp7fdFlushEj
+0000000000016bc6 g     F .text	00000000000001c7              _ZN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE8addModelEP14VerilatedModel
+000000000000ff4b g     F .text	0000000000000098              _Z12VL_TO_STRINGB5cxx11m
+0000000000014060  w    F .text	00000000000000b3              _ZNSt6vectorIbSaIbEE6resizeEmb
+000000000001a698  w    F .text	000000000000000c              _ZNKSt6vectorIbSaIbEE8capacityEv
+0000000000005972 g     F .text	0000000000000001              _Z30Vmain___024root___eval_initialP15Vmain___024root
+000000000001d608 g     F .text	000000000000000c              _ZNK5Vmain8hierNameEv
+00000000000155f6  w    F .text	000000000000001c              _ZNSt12_Vector_baseIPK14VerilatedScopeSaIS2_EED1Ev
+0000000000019bf6 g     F .text	000000000000004a              _ZN12VerilatedVcd8openNextEb
+0000000000008b9c g     F .text	0000000000000028              _ZN16VerilatedContext13assertOnClearEhh
+0000000000000000       F *UND*	0000000000000000              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1EOS4_@GLIBCXX_3.4.21
+0000000000008ca2 g     F .text	0000000000000048              _ZNK16VerilatedContext8dumpfileB5cxx11Ev
+000000000001d5ea  w    F .text	000000000000001d              _ZSt16__do_uninit_copyISt13move_iteratorIPiES2_S1_ET1_T_T0_S3_
+0000000000008939 g     F .text	0000000000000022              _Z18vl_time_multiplieri
+000000000000c7f6 g     F .text	000000000000004f              _ZN19VerilatedContextImp22commandArgsAddGutsLockEiPPKc
+000000000002abe0  w    O .data.rel.ro	0000000000000018              _ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE
+00000000000076e6 g     F .text	000000000000011b              _Z10VL_POW_WWWiiiPjPKjS1_
+000000000001a8d4  w    F .text	0000000000000016              _ZNSt6vectorISt4pairIiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEESaIS7_EE12_Guard_allocD1Ev
+0000000000006fea g     F .text	00000000000000d1              _Z18_vl_string_vprintfB5cxx11PKcP13__va_list_tag
+000000000000a198 g     F .text	0000000000000068              _ZN9Verilated12removeExitCbEPFvPvES0_
+0000000000000000       F *UND*	0000000000000000              _ZSt28_Rb_tree_rebalance_for_erasePSt18_Rb_tree_node_baseRS_@GLIBCXX_3.4
+000000000001a23e  w    F .text	0000000000000020              _ZN20VerilatedThreadQueueIPjED1Ev
+000000000001788e g     F .text	000000000000009d              _ZN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE10addConstCbEPFvPvP20VerilatedTraceBufferIS1_EEjS3_
+0000000000013346  w    F .text	000000000000022f              _ZNSt5dequeI12VerilatedMsgSaIS0_EE16_M_push_back_auxIJRKS0_EEEvDpOT_
+000000000002aa68  w    O .data.rel.ro	0000000000000020              _ZTV12VlThreadPool
+0000000000012682  w    F .text	00000000000000b5              _ZN19VerilatedContextImp6fdTellEj
+0000000000014114  w    F .text	0000000000000019              _ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE12_Guard_allocD2Ev
+0000000000020660  w    O .rodata	000000000000004f              _ZTSNSt6thread11_State_implINS_8_InvokerISt5tupleIJPFPvS3_EP14VlWorkerThreadEEEEEE
+000000000001ab26  w    F .text	00000000000001b5              _ZNSt6vectorIN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE14CallbackRecordESaIS4_EE17_M_realloc_appendIJRKS4_EEEvDpOT_
+000000000002aca0  w    O .data.rel.ro	0000000000000040              _ZTV14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE
+0000000000000000       F *UND*	0000000000000000              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev@GLIBCXX_3.4.21
+000000000001a6f2  w    F .text	00000000000000af              _ZNSt8_Rb_treeIPK14VerilatedModelS2_St9_IdentityIS2_ESt4lessIS2_ESaIS2_EE16_M_insert_uniqueIRKS2_EESt4pairISt17_Rb_tree_iteratorIS2_EbEOT_
+000000000001a0ce  w    F .text	0000000000000043              _ZN18VerilatedVcdBuffer11adjustGrowpEv
+00000000000092b6 g     F .text	00000000000000bb              _ZN9Verilated7catNameEPKcS1_S1_
+0000000000000000       F *UND*	0000000000000000              vsnprintf@GLIBC_2.2.5
+000000000001d3d4  w    F .text	00000000000000c2              _ZNSt3mapIiiSt4lessIiESaISt4pairIKiiEEEixERS3_
+0000000000008ea2 g     F .text	0000000000000042              _ZNK16VerilatedContext15profVltFilenameB5cxx11Ev
+0000000000019e5c  w    F .text	0000000000000017              _ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJM14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferEFvvEPS6_EEEEED0Ev
+000000000002abf8  w    O .data.rel.ro	0000000000000010              _ZTI14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE
+0000000000019e04  w    F .text	0000000000000001              _ZN18VerilatedVcdBufferD2Ev
+00000000000205c0  w    O .rodata	0000000000000048              _ZTSSt23_Sp_counted_ptr_inplaceISt5mutexSaIvELN9__gnu_cxx12_Lock_policyE2EE
+0000000000000000       F *UND*	0000000000000000              __cxa_guard_abort@CXXABI_1.3
+0000000000009730 g     F .text	000000000000005c              _ZN4VlOs12DeltaCpuTime7gettimeEv
+000000000000948c g     F .text	0000000000000077              _ZNK17VerilatedVarProps7entSizeEv
+0000000000000000       F *UND*	0000000000000000              __cxa_guard_release@CXXABI_1.3
+000000000000da70 g     F .text	00000000000000f0              _Z12VL_FGETS_IXIiPvj
+000000000001a042  w    F .text	0000000000000066              _ZNSt3_V222condition_variable_anyC1Ev
+000000000001d83c g     F .text	0000000000000114              _ZN5VmainC1EP16VerilatedContextPKc
+0000000000000000       F *UND*	0000000000000000              __assert_fail@GLIBC_2.2.5
+000000000002aa88  w    O .data.rel.ro	0000000000000028              _ZTVNSt6thread11_State_implINS_8_InvokerISt5tupleIJPFPvS3_EP14VlWorkerThreadEEEEEE
+000000000000de67 g     F .text	000000000000009e              _Z14VL_FOPEN_MCD_NRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+0000000000009552 g     F .text	00000000000000b3              _ZNK17VerilatedVarProps16datapAdjustIndexEPvii
+000000000002b4b0  w    O .data	0000000000000008              .hidden DW.ref.__gxx_personality_v0
+0000000000000000       F *UND*	0000000000000000              _ZSt20__throw_system_errori@GLIBCXX_3.4.11
+0000000000008b30 g     F .text	0000000000000009              _ZNK16VerilatedContext8assertOnEv
+0000000000000000       F *UND*	0000000000000000              _ZNSo9_M_insertImEERSoT_@GLIBCXX_3.4.9
+000000000001a27c  w    F .text	000000000000000f              _ZNSt10unique_ptrI20VerilatedTraceBufferI18VerilatedVcdBufferESt14default_deleteIS2_EED1Ev
+0000000000007e47 g     F .text	0000000000000173              _Z14_vl_vsss_basedPjiiPKcmm
+000000000000b21c g     F .text	0000000000000130              _ZN9Verilated20scTimePrecisionErrorEii
+000000000000835b g     F .text	000000000000007e              _Z12VL_SYSTEM_IWiPKj
+000000000001c52e g     F .text	0000000000000524              _ZN12VlThreadPoolC2EP16VerilatedContextj
+000000000001d6cc g     F .text	0000000000000009              _ZNK5Vmain12prepareCloneEv
+0000000000000000       F *UND*	0000000000000000              _ZSt18_Rb_tree_incrementPSt18_Rb_tree_node_base@GLIBCXX_3.4
+000000000000bf84 g     F .text	00000000000000b8              _ZN9Verilated10stackCheckEm
+0000000000012086  w    F .text	0000000000000017              _ZNSt14_Function_baseD2Ev
+0000000000007ae5 g     F .text	00000000000000a5              _Z12VL_ISTOR_D_WiPKj
+0000000000000000       O *UND*	0000000000000000              _ZTVN10__cxxabiv117__class_type_infoE@CXXABI_1.3
+0000000000000000       F *UND*	0000000000000000              _ZNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEC1Ev@GLIBCXX_3.4.26
+0000000000000000       F *UND*	0000000000000000              _ZSt19__throw_logic_errorPKc@GLIBCXX_3.4
+0000000000019e0a  w    F .text	0000000000000001              _ZN27VerilatedTraceOffloadBufferI18VerilatedVcdBufferED2Ev
+000000000000848e g     F .text	000000000000003a              _Z9VL_PUTC_NRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjh
+0000000000005fa0 g     F .text	00000000000000f0              _Z36Vmain___024root__trace_const_0_sub_0P15Vmain___024rootP20VerilatedTraceBufferI18VerilatedVcdBufferE
+0000000000012f0c  w    F .text	000000000000003e              _ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED2Ev
+0000000000007b8a g     F .text	00000000000002bd              _Z13VL_DECIMAL_NWB5cxx11iPKj
+0000000000009913 g     F .text	000000000000005c              _ZN4VlOs9getenvStrERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_
+000000000001daec g     F .fini	0000000000000000              .hidden _fini
+0000000000019e0c  w    F .text	0000000000000001              _ZNSt23_Sp_counted_ptr_inplaceISt5mutexSaIvELN9__gnu_cxx12_Lock_policyE2EED2Ev
+0000000000000000       F *UND*	0000000000000000              open@GLIBC_2.2.5
+0000000000008208 u       .tbss	0000000000000008              _ZGVZN23VerilatedThreadMsgQueue9threadtonEvE3t_s
+00000000000204c0  w    O .rodata	000000000000002d              _ZTS20VerilatedTraceBufferI18VerilatedVcdBufferE
+0000000000005971 g     F .text	0000000000000001              _Z29Vmain___024root___eval_staticP15Vmain___024root
+0000000000000000       F *UND*	0000000000000000              __libc_start_main@GLIBC_2.34
+0000000000000000       F *UND*	0000000000000000              isupper@GLIBC_2.2.5
+000000000000d3bc g     F .text	00000000000000b0              _Z29VL_SCOPED_RAND_RESET_ASSIGN_WiPjmm
+0000000000011906 g     F .text	00000000000000b2              _ZN18VerilatedHierarchy3addEPK14VerilatedScopeS2_
+000000000002ab78  w    O .data.rel.ro	0000000000000018              _ZTV13VerilatedSyms
+0000000000000000       F *UND*	0000000000000000              _ZNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEED1Ev@GLIBCXX_3.4.21
+000000000001127d g     F .text	00000000000000bb              _Z14VL_SSCANF_INNXiRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_iz
+000000000000ba90 g     F .text	0000000000000065              _ZN9VlReadMemC2EbiRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEmm
+00000000000072ab g     F .text	000000000000000b              _Z15VL_RANDOM_RNG_DR5VlRNG
+00000000000099c0 g     F .text	00000000000003f0              _Z15VL_STACKTRACE_NB5cxx11v
+0000000000000000       F *UND*	0000000000000000              pthread_mutex_unlock@GLIBC_2.2.5
+00000000000080e3 g     F .text	00000000000000a8              _Z12VL_FERROR_IWjiPj
+0000000000000000       F *UND*	0000000000000000              lrand48@GLIBC_2.2.5
+000000000000db60 g     F .text	00000000000001d3              _Z10VL_FREAD_IiiiPvjjj
+0000000000015e88 g     F .text	0000000000000073              _ZN20VerilatedTraceBufferI18VerilatedVcdBufferEC1ER12VerilatedVcd
+000000000000978c g     F .text	0000000000000043              _ZNK16VerilatedContext21statCpuTimeSinceStartEv
+000000000000618a g     F .text	00000000000000fb              _ZN14VlWorkerThread4mainEv
+0000000000013260  w    F .text	000000000000000f              _ZNKSt6vectorIbSaIbEE4sizeEv
+000000000001a318  w    F .text	0000000000000018              _ZNSt12_Vector_baseIcSaIcEED1Ev
+0000000000000000       F *UND*	0000000000000000              strtod@GLIBC_2.2.5
+000000000001428e  w    F .text	0000000000000019              _ZNSt6vectorISt8functionIFvP19VerilatedTraceBaseCiiEESaIS4_EE12_Guard_allocD2Ev
+000000000002ac30  w    O .data.rel.ro	0000000000000010              _ZTI16VerilatedVcdFile
+0000000000016614 g     F .text	0000000000000066              _ZN20VerilatedTraceBufferI18VerilatedVcdBufferE9fullSDataEPjti
+0000000000000000       F *UND*	0000000000000000              _ZSt28__throw_bad_array_new_lengthv@GLIBCXX_3.4.29
+0000000000014634  w    F .text	0000000000000054              _ZNSt8functionIFvP19VerilatedTraceBaseCiiEEC2ERKS3_
+000000000001b362 g     F .text	0000000000000010              _ZN14VlWorkerThread8shutdownEv
+000000000000c03c g     F .text	000000000000001c              _ZN12VerilatedImp11versionDumpEv
+00000000000152fc  w    F .text	000000000000002d              _ZNSt27__uninitialized_default_n_1ILb1EE18__uninit_default_nIPPvmEET_S4_T0_
+000000000000fc3a g     F .text	0000000000000147              _Z16VL_SFORMATF_N_NXRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEiz
+000000000000872a g     F .text	0000000000000012              _ZN10VlWriteMemD1Ev
+0000000000008cea g     F .text	000000000000001b              _ZN16VerilatedContext10errorCountEi
+000000000002a9c8  w    O .data.rel.ro	0000000000000040              _ZTV12VerilatedVcd
+0000000000009372 g     F .text	000000000000006d              _ZN9Verilated17runFlushCallbacksEv
+000000000001a2cc  w    F .text	000000000000001f              _ZNSt10unique_ptrISt6threadSt14default_deleteIS0_EED1Ev
+000000000001d520  w    F .text	000000000000003c              _ZNSt8_Rb_treeIiiSt9_IdentityIiESt4lessIiESaIiEE14_M_insert_nodeEPSt18_Rb_tree_node_baseS7_PSt13_Rb_tree_nodeIiE
+000000000002aa30  w    O .data.rel.ro	0000000000000038              _ZTVSt23_Sp_counted_ptr_inplaceISt5mutexSaIvELN9__gnu_cxx12_Lock_policyE2EE
+000000000000bd04 g     F .text	000000000000004e              _ZN5VlRNG13set_randstateERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+0000000000015e88 g     F .text	0000000000000073              _ZN20VerilatedTraceBufferI18VerilatedVcdBufferEC2ER12VerilatedVcd
+000000000000fe1a g     F .text	0000000000000099              _Z12VL_TO_STRINGB5cxx11t
+000000000001cfde  w    F .text	0000000000000018              _ZNSt12_Vector_baseIP14VlWorkerThreadSaIS1_EED2Ev
+00000000000079d2 g     F .text	0000000000000070              _Z12VL_POWSS_QQWiiimPKjbb
+000000000002b510 g     O .bss	0000000000000008              stdin@GLIBC_2.2.5
+000000000000c97c g     F .text	000000000000005d              _ZN16VerilatedContext19traceBaseModelCbAddESt8functionIFvP19VerilatedTraceBaseCiiEE
+0000000000000000       O *UND*	0000000000000000              _ZTIN10__cxxabiv115__forced_unwindE@CXXABI_1.3.2
+000000000001a25e  w    F .text	000000000000001d              _ZNSt5dequeIPjSaIS0_EE4backEv
+0000000000019e06  w    F .text	0000000000000001              _ZN20VerilatedTraceBufferI18VerilatedVcdBufferED1Ev
+000000000000dd33 g     F .text	0000000000000134              _Z11VL_FOPEN_NNRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_
+000000000001d5b7  w    F .text	0000000000000033              _ZSt14__copy_move_a2ILb0EPiS0_S0_ET2_T0_T1_S1_
+000000000001924e g     F .text	00000000000000ff              _ZN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferED1Ev
+00000000000093df g     F .text	0000000000000018              _Z7vl_warnPKciS0_S0_
+0000000000005973 g     F .text	0000000000000001              _Z28Vmain___024root___eval_finalP15Vmain___024root
+000000000001920a g     F .text	0000000000000043              _ZN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE9closeBaseEv
+000000000000ffe3 g     F .text	000000000000009c              _Z12VL_TO_STRINGB5cxx11d
+000000000000c798 g     F .text	000000000000005b              _ZN19VerilatedContextImp15commandArgsGutsEiPPKc
+000000000001b62a g     F .text	0000000000000017              _ZN12VlThreadPoolD0Ev
+0000000000000000       F *UND*	0000000000000000              system@GLIBC_2.2.5
+0000000000012eaa  w    F .text	0000000000000062              _ZStplIcSt11char_traitsIcESaIcEENSt7__cxx1112basic_stringIT_T0_T1_EEOS8_S9_
+0000000000012a5e  w    F .text	000000000000006b              _ZN16VerilatedContext13NonSerializedD2Ev
+000000000000bf08 g     F .text	000000000000007b              _ZNK19VerilatedContextImp14commandArgDumpEv
+0000000000000000       F *UND*	0000000000000000              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9push_backEc@GLIBCXX_3.4.21
+000000000000c1b4 g     F .text	00000000000004ec              _ZN19VerilatedContextImp12commandArgVlERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+000000000002ac70  w    O .data.rel.ro	0000000000000018              _ZTINSt6thread11_State_implINS_8_InvokerISt5tupleIJM14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferEFvvEPS6_EEEEEE
+0000000000016898 g     F .text	000000000000032e              _ZN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE9traceInitEv
+000000000000925e g     F .text	000000000000004b              _ZNK16VerilatedContext9scopeFindEPKc
+0000000000014b6f  w    F .text	000000000000002b              _ZNSt27__uninitialized_default_n_1ILb1EE18__uninit_default_nIPjmEET_S3_T0_
+000000000000a89c g     F .text	0000000000000039              _ZN13VerilatedSymsD2Ev
+000000000002ac20  w    O .data.rel.ro	0000000000000010              _ZTI18VerilatedVcdBuffer
+0000000000019e38  w    F .text	000000000000000a              _ZNSt23_Sp_counted_ptr_inplaceISt5mutexSaIvELN9__gnu_cxx12_Lock_policyE2EED0Ev
+0000000000000000       F *UND*	0000000000000000              __cxa_demangle@CXXABI_1.3
+000000000000986f g     F .text	0000000000000008              _ZN4VlOs6getcpuEv
+00000000000072b6 g     F .text	000000000000002b              _Z15VL_RANDOM_RNG_WR5VlRNGiPj
+000000000001a8ac  w    F .text	0000000000000027              _ZNSt6vectorIN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE14CallbackRecordESaIS4_EED1Ev
+000000000000818b g     F .text	00000000000000e1              _Z16VL_MURMUR64_HASHPKc
+000000000000a634 g     F .text	0000000000000071              _ZN10VlWriteMemC1EbiRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEmm
+0000000000015d44 g     F .text	0000000000000048              _ZNK14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE10timeResStrB5cxx11Ev
+0000000000015b04 g     F .text	0000000000000008              _ZN16VerilatedVcdFile5writeEPKcl
+0000000000008d70 g     F .text	000000000000001c              _ZN16VerilatedContext8gotErrorEb
+000000000000966e g     F .text	00000000000000c2              _ZN9VlDeleter9deleteAllEv
+0000000000013880  w    F .text	0000000000000019              _ZNSt6vectorIjSaIjEE12_Guard_allocD1Ev
+0000000000000000       F *UND*	0000000000000000              __cxa_atexit@GLIBC_2.2.5
+0000000000000000       F *UND*	0000000000000000              _ZStlsIcSt11char_traitsIcESaIcEERSt13basic_ostreamIT_T0_ES7_RKNSt7__cxx1112basic_stringIS4_S5_T1_EE@GLIBCXX_3.4.21
+0000000000005ac4 g     F .text	000000000000001d              _ZN15Vmain___024rootC1EP11Vmain__SymsPKc
+0000000000012ac9  w    F .text	000000000000005f              _ZStplIcSt11char_traitsIcESaIcEENSt7__cxx1112basic_stringIT_T0_T1_EEPKS5_RKS8_
+0000000000015e0e g     F .text	000000000000007a              _ZN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE7initLibERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+0000000000008b3a g     F .text	0000000000000010              _ZN16VerilatedContext8assertOnEb
+0000000000000000       F *UND*	0000000000000000              pthread_self@GLIBC_2.2.5
+000000000000d0d8 g     F .text	0000000000000023              _ZN5VlRNG20vl_thread_rng_rand64Ev
+0000000000000000       F *UND*	0000000000000000              exp2@GLIBC_2.29
+0000000000011419 g     F .text	000000000000025a              _Z20VL_VALUEPLUSARGS_INWiRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPj
+00000000000175b2 g     F .text	0000000000000032              _ZN12VerilatedVcd7declBusEjjPKci26VerilatedTraceSigDirection21VerilatedTraceSigKind21VerilatedTraceSigTypebiii
+000000000001d6e0 g     F .text	0000000000000022              _Z34Vmain___024root__trace_chg_0_sub_0P15Vmain___024rootP20VerilatedTraceBufferI18VerilatedVcdBufferE
+000000000000d141 g     F .text	0000000000000021              _Z19VL_RANDOM_SEEDED_IIRj
+000000000000b13e g     F .text	00000000000000dd              _ZN9Verilated14overWidthErrorEPKc
+0000000000014b9a  w    F .text	0000000000000108              _ZNSt6vectorIjSaIjEE17_M_default_appendEm
+0000000000000000       F *UND*	0000000000000000              setrlimit@GLIBC_2.2.5
+0000000000000000       F *UND*	0000000000000000              _ZNSt6thread15_M_start_threadESt10unique_ptrINS_6_StateESt14default_deleteIS1_EEPFvvE@GLIBCXX_3.4.22
+0000000000000000       F *UND*	0000000000000000              clock_gettime@GLIBC_2.17
+000000000001d718 g     F .text	0000000000000009              _ZN15Vmain___024rootD2Ev
+000000000000bdad g     F .text	0000000000000025              _Z17VL_PRINTTIMESCALEPKcS0_PK16VerilatedContext
+000000000000827a g     F .text	0000000000000034              _Z13VL_TOLOWER_NNRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+000000000001658a g     F .text	0000000000000089              _ZN20VerilatedTraceBufferI18VerilatedVcdBufferE9fullCDataEPjhi
+000000000000d51c g     F .text	0000000000000215              _ZN9VlReadMem7setDataEPvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+0000000000015f58 g     F .text	00000000000000a6              _ZN12VerilatedVcd12bufferResizeEm
+000000000000a7d0 g     F .text	0000000000000031              _ZN16VerilatedContext10checkMagicEPKS_
+00000000000072e1 g     F .text	0000000000000005              _Z15VL_ZERO_RESET_WiPj
+0000000000008d8c g     F .text	000000000000001c              _ZN16VerilatedContext9gotFinishEb
+000000000000a080 g     F .text	0000000000000070              _ZN16VerilatedContext11threadPoolpEv
+00000000000135d9  w    F .text	0000000000000153              _ZN12VerilatedImp13exportFindNumEPKc
+0000000000017034 g     F .text	000000000000014a              _ZN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE8declCodeEjRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEj
+000000000000e220 g     F .text	00000000000000e5              _ZN14VerilatedScopeC1EP13VerilatedSymsPKcS3_S3_aNS_4TypeE
+000000000000ac62 g     F .text	00000000000000a9              _ZN16VerilatedContext20commandArgsPlusMatchEPKc
+000000000001d182  w    F .text	000000000000004b              _ZNSt11_Deque_baseImSaImEED1Ev
+00000000000121b4  w    F .text	000000000000000a              _ZNSt12__mutex_baseC2Ev
+0000000000008da8 g     F .text	0000000000000020              _ZN16VerilatedContext13profExecStartEm
+0000000000012fb0  w    F .text	0000000000000036              _ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE5clearEv
+0000000000020470  w    O .rodata	0000000000000015              _ZTS18VerilatedVcdBuffer
+000000000001da32 g     F .text	0000000000000030              _ZN11Vmain__SymsD1Ev
+000000000000ab88 g     F .text	00000000000000d9              _ZN19VerilatedContextImp12argPlusMatchB5cxx11EPKc
+0000000000006290 g     F .text	0000000000000026              _start
+0000000000013286  w    F .text	0000000000000024              _ZNSt7__cxx1110_List_baseISt4pairIPFvPvES2_ESaIS5_EE8_M_clearEv
+0000000000012d96  w    F .text	0000000000000010              _ZNKSt8functionIFvvEEclEv
+0000000000000000       F *UND*	0000000000000000              _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@GLIBCXX_3.4
+0000000000000000       F *UND*	0000000000000000              fclose@GLIBC_2.2.5
+0000000000000000       F *UND*	0000000000000000              _Znwm@GLIBCXX_3.4
+000000000001a27c  w    F .text	000000000000000f              _ZNSt10unique_ptrI20VerilatedTraceBufferI18VerilatedVcdBufferESt14default_deleteIS2_EED2Ev
+0000000000013b60  w    F .text	0000000000000166              _ZNSt10_HashtableIPK14VerilatedScopeSt4pairIKS2_St6vectorIS2_SaIS2_EEESaIS8_ENSt8__detail10_Select1stESt8equal_toIS2_ESt4hashIS2_ENSA_18_Mod_range_hashingENSA_20_Default_ranged_hashENSA_20_Prime_rehash_policyENSA_17_Hashtable_traitsILb0ELb0ELb1EEEE21_M_insert_unique_nodeEmmPNSA_10_Hash_nodeIS8_Lb0EEEm
+000000000001383a  w    F .text	0000000000000045              _ZNKSt6vectorIjSaIjEE12_M_check_lenEmPKc
+000000000001b64c g     F .text	0000000000000ee2              _ZN12VlThreadPool10numaAssignB5cxx11EP16VerilatedContext
+000000000000a200 g     F .text	00000000000000a0              _ZN9Verilated10addFlushCbEPFvPvES0_
+0000000000014a2e  w    F .text	0000000000000110              _ZNSt6vectorIP8_IO_FILESaIS1_EE17_M_default_appendEm
+0000000000012f6c  w    F .text	000000000000000f              _ZNSt10unique_ptrI20VerilatedVirtualBaseSt14default_deleteIS0_EED1Ev
+000000000000a533 g     F .text	0000000000000100              _Z11VL_FATAL_MTPKciS0_S0_
+0000000000000000       F *UND*	0000000000000000              _ZdlPvm@CXXABI_1.3.9
+0000000000011338 g     F .text	000000000000007e              _ZN13VerilatedSymsC2EP16VerilatedContext
+000000000001a14e  w    F .text	0000000000000068              _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EED2Ev
+000000000000947c g     F .text	000000000000000f              _ZN14VerilatedModelC1ER16VerilatedContext
+000000000001da94 g     F .text	000000000000001c              _ZN5VmainD0Ev
+0000000000007a42 g     F .text	00000000000000a3              _Z11VL_ITOR_D_WiPKj
+000000000001b642 g     F .text	000000000000000a              _ZN14VlWorkerThread5startEPv
+0000000000012f6c  w    F .text	000000000000000f              _ZNSt10unique_ptrI20VerilatedVirtualBaseSt14default_deleteIS0_EED2Ev
+0000000000000000       F *UND*	0000000000000000              _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6substrEmm@GLIBCXX_3.4.21
+000000000000d2c1 g     F .text	000000000000007c              _Z29VL_SCOPED_RAND_RESET_ASSIGN_Iimm
+000000000000df3b g     F .text	0000000000000013              _Z10VL_FTELL_Ij
+0000000000000000       F *UND*	0000000000000000              _ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base@GLIBCXX_3.4
+000000000000725e g     F .text	000000000000004d              _ZNK5VlRNG13get_randstateB5cxx11Ev
+00000000000203b0  w    O .rodata	0000000000000018              _ZTSSt19_Sp_make_shared_tag
+000000000001b5c0 g     F .text	000000000000006a              _ZN12VlThreadPoolD2Ev
+0000000000019e0a  w    F .text	0000000000000001              _ZN27VerilatedTraceOffloadBufferI18VerilatedVcdBufferED1Ev
+00000000000191b4 g     F .text	0000000000000056              _ZN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE21shutdownOffloadWorkerEv
+000000000000c0ec g     F .text	000000000000007b              _ZNK16VerilatedContext10scopesDumpEv
+0000000000019df6 g     F .text	0000000000000002              _ZN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE7onFlushEPv
+0000000000012f4a  w    F .text	0000000000000022              _ZNSt10unique_ptrI23VerilatedContextImpDataSt14default_deleteIS0_EED2Ev
+0000000000000000       F *UND*	0000000000000000              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6appendEmc@GLIBCXX_3.4.21
+000000000001cfc6  w    F .text	0000000000000018              _ZNSt12_Vector_baseIN14VlWorkerThread7ExecRecESaIS1_EED1Ev
+000000000001d38a  w    F .text	0000000000000049              _ZNSt8_Rb_treeIiSt4pairIKiiESt10_Select1stIS2_ESt4lessIiESaIS2_EE10_Auto_node9_M_insertES0_IPSt18_Rb_tree_node_baseSB_E
+0000000000008d06 g     F .text	0000000000000015              _ZN16VerilatedContext13errorCountIncEv
+000000000000a802 g     F .text	0000000000000099              _ZN16VerilatedContextD2Ev
+000000000002b6e0 u     O .bss	0000000000000158              _ZZN12VerilatedImp1sEvE3s_s
+0000000000019e02  w    F .text	0000000000000001              _ZN12VerilatedVcd9configureERK20VerilatedTraceConfig
+000000000001d716 g     F .text	0000000000000001              _ZN15Vmain___024root12__VconfigureEb
+0000000000008b78 g     F .text	0000000000000024              _ZN16VerilatedContext11assertOnSetEhh
+00000000000092aa g     F .text	000000000000000c              _ZN16VerilatedContext12scopeNameMapEv
+0000000000020620  w    O .rodata	0000000000000017              _ZTS20VerilatedVirtualBase
+0000000000017790 g     F .text	0000000000000059              _ZN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE17addCallbackRecordERSt6vectorINS2_14CallbackRecordESaIS4_EEOS4_
+000000000000d731 g     F .text	0000000000000191              _Z12VL_READMEM_NbimiRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPvmm
+0000000000000000       F *UND*	0000000000000000              _ZnwmSt11align_val_t@CXXABI_1.3.11
+0000000000015dbe g     F .text	0000000000000005              _ZN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE19set_time_resolutionERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+0000000000008d38 g     F .text	000000000000001c              _ZN16VerilatedContext12fatalOnErrorEb
+000000000001a2ec  w    F .text	0000000000000018              _ZNSt12_Vector_baseIPN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE18ParallelWorkerDataESaIS5_EED2Ev
+000000000002ad60  w    O .data.rel.ro	0000000000000018              _ZTI13VerilatedVcdC
+000000000000947c g     F .text	000000000000000f              _ZN14VerilatedModelC2ER16VerilatedContext
+0000000000000000       F *UND*	0000000000000000              fseek@GLIBC_2.2.5
+0000000000000000       F *UND*	0000000000000000              __stack_chk_fail@GLIBC_2.4
+000000000001d1ce  w    F .text	0000000000000043              _ZNSt6vectorIN14VlWorkerThread7ExecRecESaIS1_EE8_M_eraseEN9__gnu_cxx17__normal_iteratorIPS1_S3_EE
+0000000000008f7e g     F .text	000000000000001b              _ZN16VerilatedContext9randResetEi
+0000000000005000 g     F .init	0000000000000000              .hidden _init
+0000000000015798  w    F .text	0000000000000088              _ZN16VerilatedImpDataD1Ev
+000000000001a43a  w    F .text	0000000000000018              _ZNSt12_Vector_baseISt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE24VerilatedTracePrefixTypeESaIS8_EED1Ev
+0000000000005975 g     F .text	000000000000014f              _Z32Vmain___024root___ctor_var_resetP15Vmain___024root
+000000000002ac08  w    O .data.rel.ro	0000000000000018              _ZTI12VerilatedVcd
+000000000000c7f4 g     F .text	0000000000000002              _ZN16VerilatedContext11commandArgsEiPPKc
+0000000000000000       F *UND*	0000000000000000              fputs@GLIBC_2.2.5
+0000000000008ffc g     F .text	00000000000000fb              _ZN19VerilatedContextImp9argc_argvEv
+0000000000000000       F *UND*	0000000000000000              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7replaceEmmPKcm@GLIBCXX_3.4.21
+0000000000000000       F *UND*	0000000000000000              __dynamic_cast@CXXABI_1.3
+0000000000020260  w    O .rodata	0000000000000010              _ZTS13VerilatedSyms
+000000000002b4f8 g     O .data	0000000000000000              .hidden __TMC_END__
+0000000000000000       F *UND*	0000000000000000              _ZNKSt5ctypeIcE13_M_widen_initEv@GLIBCXX_3.4.11
+000000000001cff6  w    F .text	0000000000000018              _ZNSt12_Vector_baseIiSaIiEED2Ev
+000000000002ad08  w    O .data.rel.ro	0000000000000018              _ZTINSt6thread11_State_implINS_8_InvokerISt5tupleIJPFPvS3_EP14VlWorkerThreadEEEEEE
+000000000001cfde  w    F .text	0000000000000018              _ZNSt12_Vector_baseIP14VlWorkerThreadSaIS1_EED1Ev
+000000000001dad0  w    F .text	000000000000001b              _ZN9VlDeleterD1Ev
+0000000000000000       F *UND*	0000000000000000              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructEmc@GLIBCXX_3.4.21
+000000000001a88b  w    F .text	0000000000000021              _ZSt8_DestroyIPN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE14CallbackRecordEEvT_S6_
+0000000000019df8  w    F .text	0000000000000001              _ZNSt6thread24_M_thread_deps_never_runEv
+000000000001ca52  w    F .text	000000000000000f              _ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJPFPvS3_EP14VlWorkerThreadEEEEED2Ev
+000000000001667a g     F .text	000000000000005d              _ZN20VerilatedTraceBufferI18VerilatedVcdBufferE9fullIDataEPjji
+00000000000155f6  w    F .text	000000000000001c              _ZNSt12_Vector_baseIPK14VerilatedScopeSaIS2_EED2Ev
+0000000000000000       F *UND*	0000000000000000              fflush@GLIBC_2.2.5
+0000000000008af0 g     F .text	000000000000003f              _ZN16VerilatedContext10SerializedC2Ev
+0000000000000000       F *UND*	0000000000000000              fopen@GLIBC_2.2.5
+0000000000000000       F *UND*	0000000000000000              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE8_M_eraseEmm@GLIBCXX_3.4.21
+00000000000072e6 g     F .text	0000000000000400              _Z12_vl_moddiv_wiPjPKjS1_b
+0000000000012a5e  w    F .text	000000000000006b              _ZN16VerilatedContext13NonSerializedD1Ev
+0000000000000000       F *UND*	0000000000000000              free@GLIBC_2.2.5
+000000000001ae94  w    F .text	0000000000000057              _ZN20VerilatedThreadQueueIPjE3getEv
+000000000002abd0  w    O .data.rel.ro	0000000000000010              _ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE
+000000000001b07c  w    F .text	00000000000000d4              _ZN20VerilatedThreadQueueIPjE3putES0_
+000000000001aa8a  w    F .text	000000000000004a              _ZNSt3_V222condition_variable_any7_UnlockI14VerilatedMutexED2Ev
+000000000000d17b g     F .text	000000000000009f              _Z22VL_SCOPED_RAND_RESET_Iimm
+000000000001a348  w    F .text	0000000000000076              _ZN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE8lastWordERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+000000000000e1c2 g     F .text	000000000000005e              _ZN14VerilatedScopeD2Ev
+0000000000000000       F *UND*	0000000000000000              exit@GLIBC_2.2.5
+0000000000000000       F *UND*	0000000000000000              getenv@GLIBC_2.2.5
+00000000000132aa  w    F .text	000000000000009c              _ZNSt7__cxx114listISt4pairIPFvPvES2_ESaIS5_EE6removeERKS5_
+0000000000016532 g     F .text	000000000000003f              _ZN20VerilatedTraceBufferI18VerilatedVcdBufferE9fullEventEPjPK11VlEventBase
+0000000000019e0c  w    F .text	0000000000000001              _ZNSt23_Sp_counted_ptr_inplaceISt5mutexSaIvELN9__gnu_cxx12_Lock_policyE2EED1Ev
+0000000000019eb4  w    F .text	000000000000003b              _ZNSt23_Sp_counted_ptr_inplaceISt5mutexSaIvELN9__gnu_cxx12_Lock_policyE2EE14_M_get_deleterERKSt9type_info
+000000000000c058 g     F .text	0000000000000094              _ZNK14VerilatedScope9scopeDumpEv
+0000000000000000       F *UND*	0000000000000000              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_disposeEv@GLIBCXX_3.4.21
+0000000000019e74  w    F .text	000000000000001d              _ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJM14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferEFvvEPS6_EEEEE6_M_runEv
+0000000000019e06  w    F .text	0000000000000001              _ZN20VerilatedTraceBufferI18VerilatedVcdBufferED2Ev
+0000000000011a52 g     F .text	0000000000000366              _ZN14VerilatedScope9varInsertEPKcPvb16VerilatedVarTypeiiiz
+0000000000013cc6  w    F .text	0000000000000399              _ZNSt6vectorIbSaIbEE14_M_fill_insertESt13_Bit_iteratormb
+000000000000f72a g     F .text	0000000000000156              _Z13VL_SFORMAT_NXiRjRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEiz
+0000000000000000       F *UND*	0000000000000000              fputc@GLIBC_2.2.5
+000000000000d21a g     F .text	00000000000000a7              _Z22VL_SCOPED_RAND_RESET_Qimm
+0000000000008210 u       .tbss	0000000000000050              _ZZN23VerilatedThreadMsgQueue9threadtonEvE3t_s
+00000000000121be  w    F .text	0000000000000194              _ZN23VerilatedThreadMsgQueue9threadtonEv
+0000000000000000       F *UND*	0000000000000000              _ZSt16__throw_bad_castv@GLIBCXX_3.4
+000000000001a6a4  w    F .text	000000000000000f              _ZNSt10unique_ptrINSt6thread6_StateESt14default_deleteIS1_EED2Ev
+0000000000019a5a g     F .text	000000000000019b              _ZN12VerilatedVcd4openEPKc
+0000000000018274 g     F .text	0000000000000136              _ZN12VerilatedVcd14getTraceBufferEj
+000000000000da67 g     F .text	0000000000000009              _Z11VL_FGETS_NIRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEj
+000000000001a330  w    F .text	0000000000000018              _ZNSt12_Vector_baseISt4pairIPcmESaIS2_EED2Ev
+000000000002b4c0 u     O .data	0000000000000030              _ZZN19VerilatedContextImp1sEvE3s_s
+000000000002b520 g     O .bss	0000000000000001              __libc_single_threaded@GLIBC_2.32
+0000000000000000       F *UND*	0000000000000000              _ZStrsIcSt11char_traitsIcESaIcEERSt13basic_istreamIT_T0_ES7_RNSt7__cxx1112basic_stringIS4_S5_T1_EE@GLIBCXX_3.4.21
+0000000000010f2a g     F .text	0000000000000121              _Z14VL_SSCANF_IINXijRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEiz
+00000000000103b5 g     F .text	0000000000000a52              _Z11_vl_vsscanfP8_IO_FILEiPKjRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESA_P13__va_list_tag
+000000000001007f g     F .text	000000000000009e              _Z14VL_TO_STRING_WB5cxx11iPKj
+000000000000bd52 g     F .text	000000000000005b              _Z17_vl_debug_print_wiPKj
+000000000001a3be  w    F .text	000000000000007b              _ZStplIcSt11char_traitsIcESaIcEENSt7__cxx1112basic_stringIT_T0_T1_EERKS8_PKS5_
+0000000000000000       F *UND*	0000000000000000              _ZdaPv@GLIBCXX_3.4
+0000000000000000       O *UND*	0000000000000000              _ZTVN10__cxxabiv120__si_class_type_infoE@CXXABI_1.3
+000000000001a1f2  w    F .text	000000000000004b              _ZNSt11_Deque_baseIPjSaIS0_EED1Ev
+000000000001a8ea  w    F .text	00000000000001a0              _ZNSt6vectorISt4pairIiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEESaIS7_EE17_M_realloc_appendIJRiRS6_EEEvDpOT_
+000000000000d0fb g     F .text	0000000000000030              _Z11VL_RANDOM_WiPj
+00000000000142a8  w    F .text	0000000000000101              _ZNSt8_Rb_treeIPKcSt4pairIKS1_iESt10_Select1stIS4_E16VerilatedCStrCmpSaIS4_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS4_ERS3_
+000000000001d670 g     F .text	0000000000000033              _ZN5Vmain9eval_stepEv
+000000000000b370 g     F .text	0000000000000150              _ZN14VerilatedScope19exportFindNullErrorEi
+0000000000013270  w    F .text	0000000000000015              _ZNSt15__uniq_ptr_implI20VerilatedVirtualBaseSt14default_deleteIS0_EE5resetEPS0_
+0000000000000000       F *UND*	0000000000000000              _ZdlPvSt11align_val_t@CXXABI_1.3.11
+0000000000020380  w    O .rodata	000000000000002f              _ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE
+0000000000019eef  w    F .text	000000000000013f              _ZNSt7__cxx119to_stringEi
+000000000001a1b6  w    F .text	000000000000003b              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1IS3_EEPKcRKS3_
+0000000000000000       F *UND*	0000000000000000              _ZNKSt8__detail20_Prime_rehash_policy14_M_need_rehashEmmm@GLIBCXX_3.4.18
+000000000000d162 g     F .text	0000000000000019              _Z20VL_URANDOM_SEEDED_IIj
+0000000000005dae g     F .text	000000000000005a              _Z31Vmain___024root__trace_registerP15Vmain___024rootP12VerilatedVcd
+000000000000feb3 g     F .text	0000000000000098              _Z12VL_TO_STRINGB5cxx11j
+000000000002a930  w    O .data.rel.ro	0000000000000020              _ZTV18VerilatedVcdBuffer
+000000000001ad0c  w    F .text	000000000000003a              _ZNKSt5dequeIPjSaIS0_EE4sizeEv
+000000000002bab0 g     O .bss	0000000000000008              _ZN13VlMTaskVertex8s_yieldsE
+0000000000000000       F *UND*	0000000000000000              _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7compareEmmPKc@GLIBCXX_3.4.21
+000000000002ad50  w    O .data.rel.ro	0000000000000010              _ZTI19VerilatedTraceBaseC
+000000000001857a g     F .text	00000000000000a4              _ZN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE16getOffloadBufferEv
+000000000000802d g     F .text	000000000000004b              _Z18_vl_string_to_vintiPvmPKc
+0000000000015d8c g     F .text	0000000000000016              _ZN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE13set_time_unitEPKc
+000000000002b840 u     O .bss	0000000000000270              _ZZN9Verilated15defaultContextpEvE3s_s
+00000000000097d0 g     F .text	000000000000005c              _ZN4VlOs13DeltaWallTime7gettimeEv
+000000000001d2ce  w    F .text	0000000000000014              _ZNSt8_Rb_treeIiSt4pairIKiiESt10_Select1stIS2_ESt4lessIiESaIS2_EE10_Auto_nodeD2Ev
+000000000001a8d4  w    F .text	0000000000000016              _ZNSt6vectorISt4pairIiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEESaIS7_EE12_Guard_allocD2Ev
+00000000000206b8  w    O .rodata	000000000000000e              _ZTS11Vmain__Syms
+0000000000000000       F *UND*	0000000000000000              _ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEC1Ev@GLIBCXX_3.4.26
+000000000001acdc  w    F .text	0000000000000016              _ZNSt6vectorISt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE24VerilatedTracePrefixTypeESaIS8_EE12_Guard_allocD2Ev
+0000000000007fba g     F .text	0000000000000073              _Z18_vl_vint_to_stringiPcPKj
+000000000002b540 g     O .bss	0000000000000008              stderr@GLIBC_2.2.5
+000000000000b36a g     F .text	0000000000000005              _ZN9Verilated13exportFuncNumEPKc
+0000000000017562 g     F .text	0000000000000028              _ZN12VerilatedVcd9declEventEjjPKci26VerilatedTraceSigDirection21VerilatedTraceSigKind21VerilatedTraceSigTypebi
+0000000000007101 g     F .text	000000000000011b              _Z11VL_DBG_MSGFPKcz
+0000000000014114  w    F .text	0000000000000019              _ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE12_Guard_allocD1Ev
+000000000001934e g     F .text	000000000000024a              _ZN12VerilatedVcdC2EP16VerilatedVcdFile
+000000000001d622 g     F .text	0000000000000009              _Z30Vmain___024root__trace_cleanupPvP12VerilatedVcd
+0000000000000000       F *UND*	0000000000000000              __isoc23_strtoull@GLIBC_2.38
+0000000000011338 g     F .text	000000000000007e              _ZN13VerilatedSymsC1EP16VerilatedContext
+000000000001aa8a  w    F .text	000000000000004a              _ZNSt3_V222condition_variable_any7_UnlockI14VerilatedMutexED1Ev
+000000000001428e  w    F .text	0000000000000019              _ZNSt6vectorISt8functionIFvP19VerilatedTraceBaseCiiEESaIS4_EE12_Guard_allocD1Ev
+000000000002b4a0 g       .data	0000000000000000              __data_start
+0000000000000000       F *UND*	0000000000000000              sched_getcpu@GLIBC_2.6
+0000000000012976  w    F .text	0000000000000087              _ZN12VerilatedImp14userEraseScopeEPK14VerilatedScope
+000000000001490d  w    F .text	0000000000000021              _ZSt8_DestroyIP12VerilatedMsgEvT_S2_
+0000000000005974 g     F .text	0000000000000001              _Z29Vmain___024root___eval_settleP15Vmain___024root
+0000000000000000       F *UND*	0000000000000000              _ZNSt6thread20hardware_concurrencyEv@GLIBCXX_3.4.17
+000000000002bab8 g       .bss	0000000000000000              _end
+0000000000014634  w    F .text	0000000000000054              _ZNSt8functionIFvP19VerilatedTraceBaseCiiEEC1ERKS3_
+0000000000012f0c  w    F .text	000000000000003e              _ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED1Ev
+0000000000012738  w    F .text	00000000000000d4              _ZN19VerilatedContextImp7fdWriteEjRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+0000000000009877 g     F .text	000000000000008a              _ZN4VlOs30getProcessAvailableParallelismEv
+000000000001ca62  w    F .text	0000000000000017              _ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJPFPvS3_EP14VlWorkerThreadEEEEED0Ev
+0000000000005ac4 g     F .text	000000000000001d              _ZN15Vmain___024rootC2EP11Vmain__SymsPKc
+0000000000016d8e g     F .text	00000000000002a5              _ZN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferEC1Ev
+000000000000b6a4 g     F .text	0000000000000100              _Z10VL_WARN_MTPKciS0_S0_
+0000000000000000       F *UND*	0000000000000000              strcmp@GLIBC_2.2.5
+0000000000000000       F *UND*	0000000000000000              _ZNSt18condition_variableC1Ev@GLIBCXX_3.4.11
+0000000000000000       F *UND*	0000000000000000              getrlimit@GLIBC_2.2.5
+000000000000c6a0 g     F .text	00000000000000f7              _ZN19VerilatedContextImp18commandArgsAddGutsEiPPKc
+000000000000bdd2 g     F .text	00000000000000a5              _ZNK16VerilatedContext13dumpfileCheckB5cxx11Ev
+0000000000018df4 g     F .text	00000000000003c0              _ZN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE20waitForOffloadBufferEPKj
+0000000000015dc4 g     F .text	000000000000004a              _ZN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE21runOffloadedCallbacksERKSt6vectorINS2_14CallbackRecordESaIS4_EE
+0000000000000000       F *UND*	0000000000000000              __cxa_throw_bad_array_new_length@CXXABI_1.3.8
+00000000000164f2 g     F .text	000000000000003f              _ZN20VerilatedTraceBufferI18VerilatedVcdBufferE7fullBitEPjh
+000000000001a2ec  w    F .text	0000000000000018              _ZNSt12_Vector_baseIPN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE18ParallelWorkerDataESaIS5_EED1Ev
+000000000001d6a4 g     F .text	0000000000000003              _ZN5Vmain13eventsPendingEv
+000000000000d9f5 g     F .text	0000000000000013              _Z11VL_CVT_I_FPj
+0000000000005e08 g     F .text	0000000000000189              _ZN5Vmain14traceBaseModelEP19VerilatedTraceBaseCii
+0000000000000000       F *UND*	0000000000000000              fprintf@GLIBC_2.2.5
+0000000000011db8 g     F .text	000000000000006c              _ZN16VerilatedContext18threadPoolpOnCloneEv
+000000000000e305 g     F .text	0000000000001179              _Z12_vl_vsformatRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKS4_P13__va_list_tag
+0000000000008dc8 g     F .text	000000000000001f              _ZN16VerilatedContext14profExecWindowEm
+000000000000b7a4 g     F .text	00000000000002eb              _ZN9VlReadMem3getERmRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+0000000000012bae  w    F .text	0000000000000017              _ZN17VerilatedVarPropsD2Ev
+0000000000015afc g     F .text	0000000000000008              _ZN16VerilatedVcdFile5closeEv
+000000000001b41a g     F .text	00000000000001a6              _ZN14VlWorkerThreadC2EP16VerilatedContext
+000000000001758a g     F .text	0000000000000028              _ZN12VerilatedVcd7declBitEjjPKci26VerilatedTraceSigDirection21VerilatedTraceSigKind21VerilatedTraceSigTypebi
+0000000000015da2 g     F .text	0000000000000005              _ZN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE13set_time_unitERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+000000000000c9da g     F .text	0000000000000430              _ZN16VerilatedContextC2Ev
+0000000000019cba g     F .text	00000000000000f8              _ZN12VerilatedVcdD1Ev
+000000000001d614 g     F .text	0000000000000008              _ZNK5Vmain9modelNameEv
+0000000000000000       F *UND*	0000000000000000              tolower@GLIBC_2.2.5
+000000000000fb2c g     F .text	000000000000010e              _Z13VL_SFORMAT_NXiRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKS4_iz
+0000000000000000       F *UND*	0000000000000000              __cxa_rethrow@CXXABI_1.3
+0000000000000000       F *UND*	0000000000000000              sched_yield@GLIBC_2.2.5
+000000000001372c  w    F .text	0000000000000089              _ZN12VerilatedImp11exportsDumpEv
+0000000000012bc6  w    F .text	0000000000000054              _ZNSt8functionIFvvEEC2ERKS1_
+0000000000000000       F *UND*	0000000000000000              pthread_mutex_lock@GLIBC_2.2.5
+0000000000009460 g     F .text	0000000000000008              _ZN9Verilated11productNameEv
+000000000001a23e  w    F .text	0000000000000020              _ZN20VerilatedThreadQueueIPjED2Ev
+0000000000000000       F *UND*	0000000000000000              backtrace@GLIBC_2.2.5
+00000000000091b8 g     F .text	000000000000002d              _ZNK19VerilatedContextImp17randSeedDefault64Ev
+000000000001acf2  w    F .text	0000000000000019              _ZNSt6vectorISt4pairIPcmESaIS2_EE12_Guard_allocD1Ev
+0000000000000000       F *UND*	0000000000000000              backtrace_symbols@GLIBC_2.2.5
+0000000000019816 g     F .text	0000000000000244              _ZN12VerilatedVcd11openNextImpEb
+000000000000c19a g     F .text	0000000000000019              _ZN9Verilated5debugEi
+0000000000019c40 g     F .text	000000000000002b              _ZN12VerilatedVcd13preChangeDumpEv
+000000000000789d g     F .text	00000000000000eb              _Z12VL_POWSS_WWWiiiPjPKjS1_bb
+0000000000005ae1 g     F .text	0000000000000260              _Z39Vmain___024root__trace_init_sub__TOP__0P15Vmain___024rootP12VerilatedVcd
+000000000000d9a8 g     F .text	000000000000004d              _Z15VL_RAND_RESET_Qi
+000000000002b500 g       .bss	0000000000000000              __bss_start
+0000000000014b3e  w    F .text	0000000000000031              _ZNSt6vectorIP8_IO_FILESaIS1_EE6resizeEm
+000000000001aeec  w    F .text	000000000000016b              _ZNSt5dequeIPjSaIS0_EE17_M_reallocate_mapEmb
+0000000000011866 g     F .text	00000000000000a0              _ZN14VerilatedScope12exportInsertEiPKcPv
+000000000000a6a5 g     F .text	000000000000012b              _Z13VL_WRITEMEM_NbimiRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPKvmm
+0000000000000000       F *UND*	0000000000000000              _ZSt24__throw_out_of_range_fmtPKcz@GLIBCXX_3.4.20
+0000000000020540  w    O .rodata	0000000000000073              _ZTSNSt6thread11_State_implINS_8_InvokerISt5tupleIJM14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferEFvvEPS6_EEEEEE
+000000000000947a g     F .text	0000000000000001              _ZN9Verilated7quiesceEv
+000000000002ab08  w    O .data.rel.ro	0000000000000010              _ZTI14VerilatedModel
+000000000001a43a  w    F .text	0000000000000018              _ZNSt12_Vector_baseISt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE24VerilatedTracePrefixTypeESaIS8_EED2Ev
+000000000000a89c g     F .text	0000000000000039              _ZN13VerilatedSymsD1Ev
+0000000000009468 g     F .text	0000000000000008              _ZN9Verilated14productVersionEv
+0000000000017676 g     F .text	0000000000000119              _ZN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE8dumpvarsEiRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+000000000001d6a8 g     F .text	0000000000000024              _ZN5Vmain12nextTimeSlotEv
+000000000000ce40 g     F .text	0000000000000069              _Z8vl_fatalPKciS0_S0_
+000000000001492e  w    F .text	00000000000000d3              _ZN23VerilatedThreadMsgQueueD1Ev
+0000000000013148  w    F .text	000000000000001d              _ZNSt10_HashtableIPK14VerilatedScopeSt4pairIKS2_St6vectorIS2_SaIS2_EEESaIS8_ENSt8__detail10_Select1stESt8equal_toIS2_ESt4hashIS2_ENSA_18_Mod_range_hashingENSA_20_Default_ranged_hashENSA_20_Prime_rehash_policyENSA_17_Hashtable_traitsILb0ELb0ELb1EEEE21_M_deallocate_bucketsEv
+0000000000000000       F *UND*	0000000000000000              puts@GLIBC_2.2.5
+0000000000000000       F *UND*	0000000000000000              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEmmPKcm@GLIBCXX_3.4.21
+000000000001280c  w    F .text	000000000000016a              _ZN12VerilatedImp1sEv
+0000000000000000       F *UND*	0000000000000000              feof@GLIBC_2.2.5
+00000000000064cc g     F .text	0000000000000009              _ZNK14VerilatedModel11traceConfigEv
+0000000000015da8 g     F .text	0000000000000016              _ZN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE19set_time_resolutionEPKc
+0000000000000000       F *UND*	0000000000000000              atoi@GLIBC_2.2.5
+000000000001d608 g     F .text	000000000000000c              _ZNK5Vmain4nameEv
+00000000000195d0 g     F .text	0000000000000211              _ZN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE4dumpEm
+0000000000000000       F *UND*	0000000000000000              _ZSt21ios_base_library_initv@GLIBCXX_3.4.32
+0000000000000000       F *UND*	0000000000000000              fgetc@GLIBC_2.2.5
+00000000000084dd g     F .text	0000000000000063              _Z11VL_SUBSTR_NRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEjj
+0000000000000000       F *UND*	0000000000000000              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7reserveEm@GLIBCXX_3.4.21
+000000000001dab0  w    F .text	0000000000000008              _ZNK11Vmain__Syms4nameEv
+00000000000179ca g     F .text	00000000000000a0              _ZN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE9addFullCbEPFvPvP20VerilatedTraceBufferIS1_EEjS3_
+000000000000baf5 g     F .text	000000000000020e              _Z12VL_PRINTF_MTPKcz
+00000000000206d0  w    O .rodata	0000000000000016              _ZTS19VerilatedTraceBaseC
+000000000001a5ea  w    F .text	0000000000000087              _ZN20VerilatedThreadQueueIPjEC2Ev
+000000000001026b g     F .text	000000000000014a              _Z13VL_FWRITEF_NXjRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEiz
+0000000000017baa g     F .text	00000000000000a0              _ZN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE8addChgCbEPFvPvP27VerilatedTraceOffloadBufferIS1_EEjS3_
+0000000000000000       F *UND*	0000000000000000              _ZNKSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEE3strEv@GLIBCXX_3.4.21
+0000000000012352  w    F .text	0000000000000048              _ZNK19VerilatedContextImp16timeFormatSuffixB5cxx11Ev
+0000000000000000       F *UND*	0000000000000000              _ZNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEC1ERKNS_12basic_stringIcS2_S3_EESt13_Ios_Openmode@GLIBCXX_3.4.21
+0000000000000000       F *UND*	0000000000000000              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6insertEmRKS4_@GLIBCXX_3.4.21
+000000000001a4ce  w    F .text	000000000000011b              _ZNSt11_Deque_baseIPjSaIS0_EE17_M_initialize_mapEm
+000000000000d04e g     F .text	0000000000000044              _ZNK9VlProcess9randstateB5cxx11Ev
+0000000000011167 g     F .text	0000000000000116              _Z14VL_SSCANF_IWNXiPKjRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEiz
+000000000002acf0  w    O .data.rel.ro	0000000000000018              _ZTI12VlThreadPool
+000000000000d46c g     F .text	0000000000000045              _Z15VL_RAND_RESET_Ii
+0000000000000000       F *UND*	0000000000000000              snprintf@GLIBC_2.2.5
+0000000000015ad6 g     F .text	0000000000000025              _ZN16VerilatedVcdFile4openERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+0000000000015efc g     F .text	000000000000003d              _ZN27VerilatedTraceOffloadBufferI18VerilatedVcdBufferEC2ER12VerilatedVcd
+0000000000000000       F *UND*	0000000000000000              isalpha@GLIBC_2.2.5
+0000000000012f98  w    F .text	0000000000000018              _ZNSt12_Vector_baseIjSaIjEED1Ev
+000000000002b838 u     O .bss	0000000000000008              _ZGVZN9Verilated15defaultContextpEvE3s_s
+0000000000008fdc g     F .text	000000000000001f              _ZN16VerilatedContext12prepareCloneEv
+000000000000b12a g     F .text	0000000000000014              _ZN9Verilated16nullPointerErrorEPKci
+0000000000015798  w    F .text	0000000000000088              _ZN16VerilatedImpDataD2Ev
+000000000001a304  w    F .text	0000000000000013              _ZNSt10unique_ptrI20VerilatedTraceConfigSt14default_deleteIS0_EED1Ev
+0000000000015f3a g     F .text	000000000000001e              _ZN12VerilatedVcd8closeErrEv
+0000000000000000       F *UND*	0000000000000000              memmove@GLIBC_2.2.5
+0000000000008a7a g     F .text	0000000000000075              _Z18VL_TIMEFORMAT_IINIbibibRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbiP16VerilatedContext
+00000000000099a8 g     F .text	0000000000000005              _ZN9Verilated20endOfThreadMTaskGutsEP21VerilatedEvalMsgQueue
+0000000000000000       F *UND*	0000000000000000              __cxa_end_catch@CXXABI_1.3
+000000000000a0f0 g     F .text	0000000000000028              _ZN16VerilatedContext23enableExecutionProfilerEPFP20VerilatedVirtualBaseRS_E
+0000000000013166  w    F .text	0000000000000039              _ZNSt13_Bvector_baseISaIbEE13_M_deallocateEv
+00000000000083d9 g     F .text	000000000000003f              _Z12VL_SYSTEM_IQm
+000000000001a14e  w    F .text	0000000000000068              _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EED1Ev
+0000000000020608 u     O .rodata	0000000000000010              _ZZNSt19_Sp_make_shared_tag5_S_tiEvE5__tag
+000000000000895b g     F .text	000000000000000f              _Z13vl_time_pow10i
+0000000000000000       F *UND*	0000000000000000              __gxx_personality_v0@CXXABI_1.3
+0000000000012f4a  w    F .text	0000000000000022              _ZNSt10unique_ptrI23VerilatedContextImpDataSt14default_deleteIS0_EED1Ev
+000000000001b35a g     F .text	0000000000000008              _ZN13VlMTaskVertexC1Ej
+000000000000872a g     F .text	0000000000000012              _ZN10VlWriteMemD2Ev
+000000000001389a  w    F .text	00000000000002c6              _ZN19VerilatedContextImp7fdCloseEj
+000000000000d092 g     F .text	0000000000000045              _ZN5VlRNGC2Ev
+0000000000012b92  w    F .text	000000000000001c              _ZNSt12_Vector_baseI14VerilatedRangeSaIS0_EED2Ev
+00000000000084c8 g     F .text	0000000000000015              _Z9VL_GETC_NRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEj
+0000000000012f7c  w    F .text	000000000000001c              _ZNSt12_Vector_baseIP8_IO_FILESaIS1_EED1Ev
+0000000000019c6c g     F .text	000000000000004c              _ZN12VerilatedVcd5closeEv
+00000000000070cd g     F .text	0000000000000034              _Z12VL_THREAD_IDv
+00000000000090f8 g     F .text	000000000000008b              _ZN19VerilatedContextImp18commandArgVlStringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_RS5_
+0000000000019e1a  w    F .text	000000000000000a              _ZN18VerilatedVcdBufferD0Ev
+0000000000008b4a g     F .text	000000000000002d              _ZNK16VerilatedContext11assertOnGetEhh
+00000000000156ac  w    F .text	00000000000000ec              _ZN12VerilatedImp15hierarchyRemoveEPK14VerilatedScopeS2_
+000000000001492e  w    F .text	00000000000000d3              _ZN23VerilatedThreadMsgQueueD2Ev
+0000000000000000       F *UND*	0000000000000000              _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE5rfindEPKcm@GLIBCXX_3.4.21
+000000000000d12c g     F .text	0000000000000015              _ZN9VlProcess9randstateERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+0000000000010e07 g     F .text	0000000000000123              _Z13VL_FSCANF_INXjRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEiz
+0000000000009470 g     F .text	000000000000000a              _ZN9Verilated5mkdirEPKc
+0000000000008fbc g     F .text	000000000000000b              _ZNK16VerilatedContext14timeunitStringEv
+0000000000020420  w    O .rodata	0000000000000035              _ZTS14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE
+000000000001a1b6  w    F .text	000000000000003b              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IS3_EEPKcRKS3_
+0000000000000000  w      *UND*	0000000000000000              _Z13sc_time_stampv
+000000000001cd38  w    F .text	00000000000001ba              _ZN14VlWorkerThread7addTaskEPFvPvbES0_b
+0000000000000000       F *UND*	0000000000000000              _ZNSt6thread4joinEv@GLIBCXX_3.4.11
+0000000000020490  w    O .rodata	0000000000000013              _ZTS16VerilatedVcdFile
+000000000000be78 g     F .text	0000000000000090              _ZN16VerilatedContext7threadsEj
+000000000001ad6e  w    F .text	0000000000000126              _ZNSt3_V222condition_variable_any4waitI14VerilatedMutexEEvRT_
+0000000000000000       F *UND*	0000000000000000              _ZNSolsEi@GLIBCXX_3.4
+00000000000113b6 g     F .text	0000000000000063              _Z17VL_TESTPLUSARGS_IRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+0000000000000000       F *UND*	0000000000000000              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7_S_copyEPcPKcm@GLIBCXX_3.4.21
+000000000001869c g     F .text	0000000000000539              _ZN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE12runCallbacksERKSt6vectorINS2_14CallbackRecordESaIS4_EE
+0000000000019e08  w    F .text	0000000000000001              _ZN16VerilatedVcdFileD2Ev
+000000000000783b g     F .text	0000000000000062              _Z10VL_POW_QQWiiimPKj
+000000000001d182  w    F .text	000000000000004b              _ZNSt11_Deque_baseImSaImEED2Ev
+0000000000017a6a g     F .text	00000000000000a0              _ZN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE9addFullCbEPFvPvP27VerilatedTraceOffloadBufferIS1_EEjS3_
+0000000000019598 g     F .text	0000000000000038              _ZN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE9flushBaseEv
+000000000000df4e g     F .text	0000000000000013              _Z11VL_FCLOSE_Ij
+000000000001d721 g     F .text	0000000000000001              _Z35Vmain___024root__traceDeclTypesSub0P12VerilatedVcd
+0000000000000000       F *UND*	0000000000000000              __cxa_thread_atexit@CXXABI_1.3.7
+0000000000000000       F *UND*	0000000000000000              pthread_setaffinity_np@GLIBC_2.34
+0000000000000000  w      *UND*	0000000000000000              _ITM_deregisterTMCloneTable
+000000000002b4f0  w    O .data	0000000000000008              .hidden DW.ref._ZTIN10__cxxabiv115__forced_unwindE
+000000000001615e g     F .text	0000000000000044              _ZN12VerilatedVcd8printStrEPKc
+000000000001d61c g     F .text	0000000000000006              _ZNK5Vmain7threadsEv
+0000000000012bae  w    F .text	0000000000000017              _ZN17VerilatedVarPropsD1Ev
+0000000000000000       F *UND*	0000000000000000              _Unwind_Resume@GCC_3.0
+0000000000008f62 g     F .text	000000000000001c              _ZN16VerilatedContext5quietEb
+000000000002b6d8 u     O .bss	0000000000000008              _ZGVZN12VerilatedImp1sEvE3s_s
+00000000000125e4  w    F .text	000000000000009d              _ZN19VerilatedContextImp6fdSeekEjjj
+0000000000008c1c g     F .text	0000000000000042              _ZNK16VerilatedContext16coverageFilenameB5cxx11Ev
+000000000001d2e2  w    F .text	00000000000000a8              _ZNSt8_Rb_treeIiSt4pairIKiiESt10_Select1stIS2_ESt4lessIiESaIS2_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS2_ERS1_
+0000000000015612  w    F .text	000000000000009a              _ZNSt8__detail9_Map_baseIPK14VerilatedScopeSt4pairIKS3_St6vectorIS3_SaIS3_EEESaIS9_ENS_10_Select1stESt8equal_toIS3_ESt4hashIS3_ENS_18_Mod_range_hashingENS_20_Default_ranged_hashENS_20_Prime_rehash_policyENS_17_Hashtable_traitsILb0ELb0ELb1EEELb1EEixERS5_
+000000000001d718 g     F .text	0000000000000009              _ZN15Vmain___024rootD1Ev
+00000000000206f0  w    O .rodata	0000000000000010              _ZTS13VerilatedVcdC
+000000000001532a  w    F .text	0000000000000109              _ZNSt6vectorIPvSaIS0_EE17_M_default_appendEm
+000000000000fd81 g     F .text	0000000000000099              _Z12VL_TO_STRINGB5cxx11h
+0000000000016446 g     F .text	00000000000000ab              _ZN18VerilatedVcdBuffer10finishLineEjPc
+0000000000000000       F *UND*	0000000000000000              pthread_getaffinity_np@GLIBC_2.32
+0000000000008f9a g     F .text	0000000000000022              _ZN16VerilatedContext8timeunitEi
+0000000000008648 g     F .text	0000000000000050              _Z9VL_NTOI_QiRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+0000000000000000       F *UND*	0000000000000000              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERmm@GLIBCXX_3.4.21
+00000000000121b4  w    F .text	000000000000000a              _ZNSt12__mutex_baseC1Ev
+000000000000ba90 g     F .text	0000000000000065              _ZN9VlReadMemC1EbiRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEmm
+0000000000019cba g     F .text	00000000000000f8              _ZN12VerilatedVcdD2Ev
+00000000000060a0 g     F .text	000000000000001d              _Z35Vmain___024root__trace_full_0_sub_0P15Vmain___024rootP20VerilatedTraceBufferI18VerilatedVcdBufferE
+000000000001104b g     F .text	000000000000011c              _Z14VL_SSCANF_IQNXimRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEiz
+0000000000016d8e g     F .text	00000000000002a5              _ZN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferEC2Ev
+000000000001cef2  w    F .text	00000000000000d3              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE22__resize_and_overwriteIZNS_9to_stringEiEUlPcmE_EEvmT_
+000000000000c846 g     F .text	0000000000000002              _ZN16VerilatedContext14commandArgsAddEiPPKc
+000000000001a6b4  w    F .text	000000000000003e              _ZNSt7__cxx1110_List_baseIN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE18ParallelWorkerDataESaIS5_EE8_M_clearEv
+0000000000008be0 g     F .text	000000000000003b              _ZN16VerilatedContext16coverageFilenameERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+000000000001d950 g     F .text	00000000000000e2              _ZN5VmainC2EPKc
+0000000000000000       F *UND*	0000000000000000              __cxa_guard_acquire@CXXABI_1.3
+000000000001480c  w    F .text	0000000000000101              _ZNSt8_Rb_treeIPKcSt4pairIKS1_12VerilatedVarESt10_Select1stIS5_E16VerilatedCStrCmpSaIS5_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS5_ERS3_
+0000000000000000       F *UND*	0000000000000000              _ZNSt18condition_variableD1Ev@GLIBCXX_3.4.11
+0000000000017b0a g     F .text	00000000000000a0              _ZN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE8addChgCbEPFvPvP20VerilatedTraceBufferIS1_EEjS3_
+000000000001acf2  w    F .text	0000000000000019              _ZNSt6vectorISt4pairIPcmESaIS2_EE12_Guard_allocD2Ev
+0000000000020500  w    O .rodata	0000000000000034              _ZTS27VerilatedTraceOffloadBufferI18VerilatedVcdBufferE
+00000000000091e6 g     F .text	0000000000000077              _ZN19VerilatedContextImp10scopeEraseEPK14VerilatedScope
+000000000002ace0  w    O .data.rel.ro	0000000000000010              _ZTI20VerilatedVirtualBase
+00000000000120c9  w    F .text	0000000000000039              _ZSt14__fill_bvectorPmjjb
+0000000000020240  w    O .rodata	0000000000000011              _ZTS14VerilatedModel
+000000000001d722 g     F .text	0000000000000001              _Z33Vmain___024root__trace_decl_typesP12VerilatedVcd
+0000000000013575  w    F .text	0000000000000064              _ZN23VerilatedThreadMsgQueue4postERK12VerilatedMsg
+0000000000016372 g     F .text	0000000000000046              _ZN12VerilatedVcd11printIndentEi
+0000000000019e4c  w    F .text	000000000000000f              _ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJM14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferEFvvEPS6_EEEEED1Ev
+0000000000000000       F *UND*	0000000000000000              strdup@GLIBC_2.2.5
+000000000000c9da g     F .text	0000000000000430              _ZN16VerilatedContextC1Ev
+0000000000017ea0 g     F .text	00000000000003d4              _ZN12VerilatedVcd10pushPrefixEPKc24VerilatedTracePrefixType
+0000000000000000       F *UND*	0000000000000000              _ZNSt14basic_ifstreamIcSt11char_traitsIcEEC1EPKcSt13_Ios_Openmode@GLIBCXX_3.4
+000000000002ab18  w    O .data.rel.ro	0000000000000010              _ZTI13VerilatedSyms
+000000000000826c g     F .text	000000000000000e              _Z12VL_SYSTEM_INRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+0000000000020458  w    O .rodata	000000000000000f              _ZTS12VerilatedVcd
+000000000001a330  w    F .text	0000000000000018              _ZNSt12_Vector_baseISt4pairIPcmESaIS2_EED1Ev
+000000000001a2cc  w    F .text	000000000000001f              _ZNSt10unique_ptrISt6threadSt14default_deleteIS0_EED2Ev
+0000000000000000       F *UND*	0000000000000000              _ZSt7getlineIcSt11char_traitsIcESaIcEERSt13basic_istreamIT_T0_ES7_RNSt7__cxx1112basic_stringIS4_S5_T1_EES4_@GLIBCXX_3.4.21
+0000000000000000       F *UND*	0000000000000000              toupper@GLIBC_2.2.5
+000000000000a634 g     F .text	0000000000000071              _ZN10VlWriteMemC2EbiRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEmm
+000000000000e1c2 g     F .text	000000000000005e              _ZN14VerilatedScopeD1Ev
+000000000001934e g     F .text	000000000000024a              _ZN12VerilatedVcdC1EP16VerilatedVcdFile
+0000000000017612 g     F .text	0000000000000032              _ZN12VerilatedVcd8declQuadEjjPKci26VerilatedTraceSigDirection21VerilatedTraceSigKind21VerilatedTraceSigTypebiii
+000000000001d950 g     F .text	00000000000000e2              _ZN5VmainC1EPKc
+0000000000000000  w      *UND*	0000000000000000              _ZTHN9Verilated3t_sE
+000000000001b3da g     F .text	0000000000000040              _ZN14VlWorkerThreadD2Ev
+000000000002ac88  w    O .data.rel.ro	0000000000000018              _ZTISt23_Sp_counted_ptr_inplaceISt5mutexSaIvELN9__gnu_cxx12_Lock_policyE2EE
+000000000000a2a0 g     F .text	00000000000000a0              _ZN9Verilated9addExitCbEPFvPvES0_
+000000000000721c g     F .text	0000000000000013              _ZN5VlRNGC2Em
+0000000000009606 g     F .text	0000000000000067              _ZNK14VerilatedScope7varFindEPKc
+000000000001a318  w    F .text	0000000000000018              _ZNSt12_Vector_baseIcSaIcEED2Ev
+000000000000d4b1 g     F .text	000000000000006a              _Z15VL_RAND_RESET_WiPj
+0000000000000000  w      *UND*	0000000000000000              __gmon_start__
+0000000000008540 g     F .text	0000000000000108              _Z9VL_ATOI_NRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEi
+000000000000d33d g     F .text	000000000000007f              _Z29VL_SCOPED_RAND_RESET_ASSIGN_Qimm
+000000000001a02e  w    F .text	0000000000000013              _ZNSt5mutex4lockEv
+00000000000081e0 g       .tbss	0000000000000028              _ZN9Verilated3t_sE
+000000000002aab0  w    O .data.rel.ro	0000000000000018              _ZTV11Vmain__Syms
+0000000000000000  w    F *UND*	0000000000000000              __cxa_pure_virtual@CXXABI_1.3
+00000000000175e4 g     F .text	000000000000002e              _ZN12VerilatedVcd10declDoubleEjjPKci26VerilatedTraceSigDirection21VerilatedTraceSigKind21VerilatedTraceSigTypebi
+0000000000000000  w      *UND*	0000000000000000              _ITM_registerTMCloneTable
+0000000000000000       F *UND*	0000000000000000              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6appendEPKc@GLIBCXX_3.4.21
+000000000002a950  w    O .data.rel.ro	0000000000000020              _ZTV20VerilatedTraceBufferI18VerilatedVcdBufferE
+000000000001239a  w    F .text	000000000000010f              _ZN19VerilatedContextImp10fdToFpListEj
+0000000000011e24  w    F .text	0000000000000010              _ZSt3hexRSt8ios_base
+0000000000014d8d  w    F .text	0000000000000190              _Z17_vl_vsformat_timeIdENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPcT_ibm
+0000000000007988 g     F .text	000000000000004a              _Z12VL_POWSS_WWQiiiPjPKjmbb
+00000000000082e2 g     F .text	0000000000000079              _Z18VL_CVT_PACK_STR_NWB5cxx11iPKj
+000000000001ca7a  w    F .text	000000000000000d              _ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJPFPvS3_EP14VlWorkerThreadEEEEE6_M_runEv
+0000000000019e42  w    F .text	000000000000000a              _ZNSt23_Sp_counted_ptr_inplaceISt5mutexSaIvELN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv
+000000000000896a g     F .text	0000000000000110              _Z20vl_timescaled_doubleB5cxx11dPKc
+0000000000008ee4 g     F .text	000000000000003b              _ZN16VerilatedContext13solverProgramERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+0000000000012b47  w    F .text	000000000000004a              _ZStplIcSt11char_traitsIcESaIcEENSt7__cxx1112basic_stringIT_T0_T1_EERKS8_SA_
+00000000000124aa  w    F .text	0000000000000082              _ZN19VerilatedContextImp6fdToFpEj
+0000000000009db0 g     F .text	000000000000007e              _Z13VL_STACKTRACEv
+000000000001ab10  w    F .text	0000000000000016              _ZNSt6vectorIN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE14CallbackRecordESaIS4_EE12_Guard_allocD2Ev
+000000000001d55c  w    F .text	000000000000005b              _ZNSt3setIiSt4lessIiESaIiEE7emplaceIJRKiEEESt4pairISt23_Rb_tree_const_iteratorIiEbEDpOT_
+0000000000000000       F *UND*	0000000000000000              fwrite@GLIBC_2.2.5
+000000000001a304  w    F .text	0000000000000013              _ZNSt10unique_ptrI20VerilatedTraceConfigSt14default_deleteIS0_EED2Ev
+0000000000000000       F *UND*	0000000000000000              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6appendERKS4_@GLIBCXX_3.4.21
+0000000000000000       F *UND*	0000000000000000              close@GLIBC_2.2.5
+0000000000016572 g     F .text	0000000000000017              _ZN20VerilatedTraceBufferI18VerilatedVcdBufferE18fullEventTriggeredEPj
+000000000000c168 g     F .text	0000000000000032              _ZNK16VerilatedContext13internalsDumpEv
+000000000000873c g     F .text	00000000000001fd              _ZN10VlWriteMem5printEmbPKv
+0000000000019e2e  w    F .text	000000000000000a              _ZN16VerilatedVcdFileD0Ev
+000000000001d6df g     F .text	0000000000000001              _Z22Vmain___024root___evalP15Vmain___024root
+0000000000008f20 g     F .text	0000000000000042              _ZNK16VerilatedContext13solverProgramB5cxx11Ev
+0000000000000000       F *UND*	0000000000000000              _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE5rfindEcm@GLIBCXX_3.4.21
+0000000000000000       F *UND*	0000000000000000              _ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4findEPKcm@GLIBCXX_3.4.21
+000000000002a970  w    O .data.rel.ro	0000000000000020              _ZTV27VerilatedTraceOffloadBufferI18VerilatedVcdBufferE
+0000000000013052  w    F .text	00000000000000f6              _ZNSt6vectorI14VerilatedRangeSaIS0_EE17_M_realloc_appendIJRKiS5_EEEvDpOT_
+0000000000018bd6 g     F .text	000000000000021d              _ZN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE23offloadWorkerThreadMainEv
+0000000000019e04  w    F .text	0000000000000001              _ZN18VerilatedVcdBufferD1Ev
+00000000000129fd  w    F .text	0000000000000060              _ZN12VerilatedImp10exportNameEi
+000000000001717e g     F .text	00000000000003e3              _ZN12VerilatedVcd7declareEjPKcS1_bibii
+0000000000000000       F *UND*	0000000000000000              __isoc23_strtol@GLIBC_2.38
+0000000000012fe6  w    F .text	000000000000003d              _ZSteqIcSt11char_traitsIcESaIcEEbRKNSt7__cxx1112basic_stringIT_T0_T1_EEPKS5_
+000000000001aad4  w    F .text	000000000000003c              _ZN14VerilatedTraceI12VerilatedVcd18VerilatedVcdBufferE14CallbackRecordC1ERKS3_
+
+
